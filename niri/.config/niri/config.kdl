@@ -138,8 +138,8 @@ binds {
     MOD+SHIFT+CTRL+DOWN                 { move-column-to-monitor-down; }
 
     // ─── Workspace Switching ───
-    MOD+SHIFT+WHEELSCROLLDOWN                 cooldown-ms=150 { focus-workspace-down; }
-    MOD+SHIFT+WHEELSCROLLUP                   cooldown-ms=150 { focus-workspace-up; }
+    MOD+SHIFT+WHEELSCROLLDOWN           cooldown-ms=150 { focus-workspace-down; }
+    MOD+SHIFT+WHEELSCROLLUP             cooldown-ms=150 { focus-workspace-up; }
     MOD+CTRL+WHEELSCROLLDOWN            cooldown-ms=150 { move-column-to-workspace-down; }
     MOD+CTRL+WHEELSCROLLUP              cooldown-ms=150 { move-column-to-workspace-up; }
 
@@ -148,8 +148,8 @@ binds {
     MOD+CTRL+WHEELSCROLLRIGHT           { move-column-right; }
     MOD+CTRL+WHEELSCROLLLEFT            { move-column-left; }
 
-    MOD+WHEELSCROLLDOWN           { focus-column-right; }
-    MOD+WHEELSCROLLUP             { focus-column-left; }
+    MOD+WHEELSCROLLDOWN                 { focus-column-right; }
+    MOD+WHEELSCROLLUP                   { focus-column-left; }
     MOD+CTRL+SHIFT+WHEELSCROLLDOWN      { move-column-right; }
     MOD+CTRL+SHIFT+WHEELSCROLLUP        { move-column-left; }
 
@@ -183,7 +183,7 @@ binds {
     MOD+EQUAL                           { set-column-width "+10%"; }
     MOD+SHIFT+MINUS                     { set-window-height "-10%"; }
     MOD+SHIFT+EQUAL                     { set-window-height "+10%"; }
-    MOD+LESS				{ switch-preset-column-width; }
+    MOD+LESS                            { switch-preset-column-width; }
 
     // ─── Modes ───
     MOD+T                               { toggle-window-floating; }

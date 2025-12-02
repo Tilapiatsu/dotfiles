@@ -248,11 +248,13 @@ window-rule {
 }
 window-rule {
     match app-id=r#"^gnome-calculator$"#
+    match title=r#"^Calculatrice$"#
     match app-id=r#"^galculator$"#
     match app-id=r#"^blueman-manager$"#
     match app-id=r#"^org\.gnome\.Nautilus$"#
     match app-id=r#"^steam$"#
     match app-id=r#"^xdg-desktop-portal$"#
+    match app-id=r#"^org\.kitty\.pacseek$"#
     open-floating true
 }
 window-rule {
@@ -265,7 +267,7 @@ window-rule {
 }
 window-rule {
     match is-active=false
-    opacity 0.9
+    opacity 0.95
 }
 window-rule {
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
@@ -301,8 +303,12 @@ binds {
     }
     Mod+N hotkey-overlay-title="Notification Center" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
     Mod+Shift+N hotkey-overlay-title="Notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
+    Mod+Escape hotkey-overlay-title="Logout" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
     Mod+B hotkey-overlay-title="Open Browser: brave" { spawn-sh "brave"; }
     Mod+Shift+B hotkey-overlay-title="blender" { spawn-sh "blender"; }
+    Mod+E hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "nautilus"; }
+    Mod+I hotkey-overlay-title="Package Manager: pacseek" { spawn-sh "kitty pacseek"; }
+    Mod+C hotkey-overlay-title="Calc: gnome-calculator" { spawn-sh "gnome-calculator"; }
 
     // === Security ===
     Mod+L hotkey-overlay-title="Lock Screen" {
@@ -339,7 +345,7 @@ binds {
     Mod+W repeat=false { close-window; }
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
-    Mod+Shift+T { toggle-window-floating; }
+    Mod+T { toggle-window-floating; }
     Mod+Shift+V { switch-focus-between-floating-and-tiling; }
     Mod+Q { toggle-column-tabbed-display; }
 
@@ -392,8 +398,8 @@ binds {
     // === Workspace Navigation ===
     Mod+Page_Down      { focus-workspace-down; }
     Mod+Page_Up        { focus-workspace-up; }
-    Mod+U              { focus-workspace-down; }
-    Mod+I              { focus-workspace-up; }
+    //Mod+U              { focus-workspace-down; }
+    //Mod+I              { focus-workspace-up; }
     Mod+Alt+Down { move-column-to-workspace-down; }
     Mod+Alt+Up   { move-column-to-workspace-up; }
     Mod+Ctrl+U         { move-column-to-workspace-down; }
@@ -453,7 +459,7 @@ binds {
     Mod+Shift+Less { switch-preset-window-height; }
     Mod+Ctrl+R { reset-window-height; }
     Mod+Ctrl+F { expand-column-to-available-width; }
-    Mod+C { center-column; }
+    Mod+Shift+C { center-column; }
     Mod+Ctrl+C { center-visible-columns; }
 
     // === Manual Sizing ===
@@ -470,7 +476,7 @@ binds {
     Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
     // === System Controls ===
-    Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+    Mod+Shift+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+P { power-off-monitors; }
 }
 debug {

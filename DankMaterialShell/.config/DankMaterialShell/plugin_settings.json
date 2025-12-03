@@ -1,0 +1,22 @@
+{
+  "calculator": {
+    "enabled": true,
+    "trigger": "="
+  },
+  "commandRunner": {
+    "enabled": true,
+    "history": [
+      "sh UBISOFT/RDP/connect.sh"
+    ]
+  },
+  "niriWindows": {
+    "enabled": true
+  },
+  "wallpaperDiscovery": {
+    "enabled": false,
+    "downloadLocation": "~/images/wallpapers"
+  },
+  "wallpaperBing": {
+    "enabled": false
+  }
+}

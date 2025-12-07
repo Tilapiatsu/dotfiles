@@ -29,7 +29,7 @@ output "Eizo Nanao Corporation EV2436W 33227123" {
 
 output "Ancor Communications Inc PA249 G1LMQS051748" {
     position x=1920 y=0
-
+    //scale 1.5
 //    hot-corners {
 //        off
 //    }
@@ -75,6 +75,9 @@ input {
     mouse {
     }
     trackpoint {
+    }
+    tablet {
+	map-to-output "Wacom Tech Cintiq 22 9GQ00Y1003935"
     }
 }
 // You can configure outputs by their name, which you can find
@@ -141,13 +144,13 @@ layout {
     border {
         off
         width 4
-        active-color   "#707070"      // Neutral gray
+        active-color   "#709070"      // Neutral gray
         inactive-color "#d0d0d0"      // Light gray
         urgent-color   "#cc4444"      // Softer red
     }
     focus-ring {
         width 2
-        active-color   "#808080"      // Medium gray
+        active-color   "#80BB99"      // Medium gray
         inactive-color "#505050"      // Dark gray
     }
     shadow {
@@ -252,13 +255,13 @@ window-rule {
     match app-id=r#"^galculator$"#
     match app-id=r#"^blueman-manager$"#
     match app-id=r#"^org\.gnome\.Nautilus$"#
-    match app-id=r#"^steam$"#
     match app-id=r#"^xdg-desktop-portal$"#
     match app-id=r#"^org\.kitty\.pacseek$"#
     open-floating true
 }
 window-rule {
     match app-id=r#"xfreerdp$"#
+    //match app-id=r#"^steam$"#
     open-fullscreen true
 }
 window-rule {
@@ -272,6 +275,10 @@ window-rule {
 window-rule {
     match is-active=false
     opacity 0.95
+}
+window-rule {
+    match app-id="brave"
+    opacity 1.0
 }
 window-rule {
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
@@ -310,7 +317,7 @@ binds {
     Mod+Escape hotkey-overlay-title="Logout" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
     Mod+B hotkey-overlay-title="Open Browser: brave" { spawn-sh "brave"; }
     Mod+Shift+B hotkey-overlay-title="blender" { spawn-sh "blender"; }
-    Mod+E hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "dolphin"; }
+    Mod+E hotkey-overlay-title="File Manager: dolphin" { spawn-sh "dolphin"; }
     Mod+I hotkey-overlay-title="Package Manager: pacseek" { spawn-sh "kitty pacseek"; }
     Mod+C hotkey-overlay-title="Calc: gnome-calculator" { spawn-sh "gnome-calculator"; }
 
@@ -352,6 +359,8 @@ binds {
     Mod+T { toggle-window-floating; }
     Mod+Shift+V { switch-focus-between-floating-and-tiling; }
     Mod+Q { toggle-column-tabbed-display; }
+    Mod+SHIFT+Q { consume-window-into-column; }
+    Mod+CTRL+SHIFT+Q { expel-window-from-column; }
 
     // === Focus Navigation ===
     Mod+Left  { focus-column-left; }

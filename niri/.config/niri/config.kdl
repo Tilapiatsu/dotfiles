@@ -63,7 +63,7 @@ gestures {
 // Find the full list of options on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
 input {
-    focus-follows-mouse // Automatically focus windows under the mouse pointer
+    focus-follows-mouse max-scroll-amount="10%" // Automatically focus windows under the mouse pointeri 
     workspace-auto-back-and-forth // Enable workspace back & forth switching
     keyboard {
         xkb {
@@ -73,11 +73,23 @@ input {
     touchpad {
     }
     mouse {
+	//scroll-method "on-button-down"
+        //scroll-button 274
+	//scroll-factor vertical=1.0 horizontal=-2.0
+
     }
     trackpoint {
     }
     tablet {
 	map-to-output "Wacom Tech Cintiq 22 9GQ00Y1003935"
+    }
+}
+recent-windows {
+    highlight {
+        active-color "#80BB9988"
+        urgent-color   "#cc4444"      // Softer red
+        padding 30
+        corner-radius 12
     }
 }
 // You can configure outputs by their name, which you can find
@@ -250,6 +262,11 @@ window-rule {
     open-floating false
 }
 window-rule {
+    match app-id="krita"
+    match app-id="steam"
+    default-column-width { proportion 1.0; }
+}
+window-rule {
     match app-id=r#"^gnome-calculator$"#
     match title=r#"^Calculatrice$"#
     match app-id=r#"^galculator$"#
@@ -261,8 +278,10 @@ window-rule {
 }
 window-rule {
     match app-id=r#"xfreerdp$"#
-    //match app-id=r#"^steam$"#
+    match app-id=r#"^.steam\steam\steamapps$"#
+    match app-id="steam"
     open-fullscreen true
+    open-focused true
 }
 window-rule {
     match app-id=r#"^org\.wezfurlong\.wezterm$"#
@@ -278,6 +297,7 @@ window-rule {
 }
 window-rule {
     match app-id="brave"
+    match app-id="blender"
     opacity 1.0
 }
 window-rule {

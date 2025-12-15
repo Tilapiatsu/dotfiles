@@ -1,11 +1,11 @@
 modmap:
   - name: Wacom Stylus Disable buttons
     device: 
-      only: '/dev/input/event10'
+      only: '/dev/input/event5'
     remap:
-      #BTN_STYLUS: []
-      #BTN_STYLUS2: []
-      KEY_A: KEY_B
+      BTN_STYLUS: []
+      BTN_STYLUS2: []
+      #KEY_A: KEY_B
 
 keymap:
   - name: Wacom Remap Stylus Buttons

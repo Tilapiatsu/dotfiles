@@ -190,7 +190,7 @@ overview {
 // See the binds section below for more spawn examples.
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
-spawn-at-startup "dms" "run"
+//spawn-at-startup "dms" "run"
 spawn-at-startup "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1"
 environment {
   XDG_CURRENT_DESKTOP "niri"
@@ -264,18 +264,19 @@ window-rule {
     open-floating false
 }
 window-rule {
-    match app-id="krita"
+    //match title=r#"^Krita$"#
     match app-id="steam"
     default-column-width { proportion 1.0; }
 }
 window-rule {
     match app-id=r#"^gnome-calculator$"#
-    match title=r#"^Calculatrice$"#
+    match title="Calculatrice"
     match app-id=r#"^galculator$"#
     match app-id=r#"^blueman-manager$"#
     match app-id=r#"^org\.gnome\.Nautilus$"#
     match app-id=r#"^xdg-desktop-portal$"#
     match app-id=r#"^org\.kitty\.pacseek$"#
+    match title="Settings"
     open-floating true
 }
 window-rule {
@@ -300,6 +301,7 @@ window-rule {
 window-rule {
     match app-id="brave"
     match app-id="blender"
+    match app-id="krita"
     opacity 1.0
 }
 window-rule {
@@ -354,10 +356,10 @@ binds {
 
     // === Audio Controls ===
     XF86AudioRaiseVolume allow-when-locked=true {
-        spawn "dms" "ipc" "call" "audio" "increment" "3";
+        spawn "dms" "ipc" "call" "audio" "increment" "1";
     }
     XF86AudioLowerVolume allow-when-locked=true {
-        spawn "dms" "ipc" "call" "audio" "decrement" "3";
+        spawn "dms" "ipc" "call" "audio" "decrement" "1";
     }
     XF86AudioMute allow-when-locked=true {
         spawn "dms" "ipc" "call" "audio" "mute";

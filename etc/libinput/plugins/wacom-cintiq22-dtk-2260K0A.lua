@@ -1,16 +1,30 @@
-libinput:register(1) -- register plugin version 1
-libinput:connect("new-evdev-device", function(_, device)
-	if device:vid() == 0x056a and device:pid() == 0x0391 then
-		device:connect("evdev-frame", function(_, frame)
-			for _, event in ipairs(frame.events) do
-				if
-					event.type == evdev.EV_KEY
-					and (event.code == evdev.BTN_STYLUS or event.code == evdev.BTN_STYLUS2)
-				then
-					event.value = -event.value
-				end
+libinput:register({1}) -- register plugin version 1
+
+TABLET_VID = 0x056a
+TABLET_PID = 0x0391
+
+function frame(device, frame, _)
+	for _, event in ipairs(frame) do
+	--	if event.type == evdev.EV_KEY and event.code ~= evdev.BTN_TOUCH then
+	--		event.value = -event.value
+		
+		if event.type == evdev.EV_KEY and event.code == evdev.BTN_TOUCH then
+			if event.code == evdev.BTN_STYLUS then
+				event.code = evdev.BTN_RIGHT
+			elseif event.code == evdev.BTN_STYLUS2 then
+				event.code = evdev.BTN_MIDDLE
 			end
-			return frame
-		end)
+		end
 	end
-end)
+	return frame
+end
+
+function device_new(device)
+    local info = device:info()
+    if  info.vid == TABLET_VID and info.pid == TABLET_PID then
+        device:connect("evdev-frame", frame)
+    end
+end
+
+libinput:connect("new-evdev-device", device_new)
+

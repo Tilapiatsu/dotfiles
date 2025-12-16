@@ -1,6 +1,6 @@
 {
   "isLightMode": false,
-  "wallpaperPath": "/home/tilapiatsu/Images/wallpapers/TranscodedWallpaper.jpg",
+  "wallpaperPath": "/home/tilapiatsu/TILAPIATSU/WALLPAPERS/TranscodedWallpaper.jpg",
   "perMonitorWallpaper": false,
   "monitorWallpapers": {},
   "perModeWallpaper": false,
@@ -13,7 +13,7 @@
   "brightnessExponentValues": {},
   "doNotDisturb": false,
   "nightModeEnabled": false,
-  "nightModeTemperature": 4000,
+  "nightModeTemperature": 4500,
   "nightModeHighTemperature": 6500,
   "nightModeAutoEnabled": false,
   "nightModeAutoMode": "time",
@@ -51,8 +51,7 @@
     "portal"
   ],
   "recentColors": [
-    "#1793d1",
-    "#73c568"
+    "#3c9585"
   ],
   "showThirdPartyPlugins": true,
   "configVersion": 1

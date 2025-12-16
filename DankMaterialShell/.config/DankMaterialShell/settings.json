@@ -1,14 +1,14 @@
 {
   "currentThemeName": "dynamic",
   "customThemeFile": "",
-  "matugenScheme": "scheme-tonal-spot",
+  "matugenScheme": "scheme-fidelity",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
-  "popupTransparency": 0.92,
+  "popupTransparency": 1,
   "dockTransparency": 1,
   "widgetBackgroundColor": "sch",
   "widgetColorMode": "default",
-  "cornerRadius": 11,
+  "cornerRadius": 12,
   "use24HourClock": true,
   "showSeconds": false,
   "useFahrenheit": false,
@@ -41,7 +41,7 @@
   "controlCenterShowAudioIcon": true,
   "controlCenterShowVpnIcon": true,
   "controlCenterShowBrightnessIcon": false,
-  "controlCenterShowMicIcon": false,
+  "controlCenterShowMicIcon": true,
   "controlCenterShowBatteryIcon": false,
   "controlCenterShowPrinterIcon": false,
   "showPrivacyButton": true,
@@ -96,7 +96,7 @@
   "showWorkspaceApps": false,
   "maxWorkspaceIcons": 3,
   "workspacesPerMonitor": true,
-  "showOccupiedWorkspacesOnly": false,
+  "showOccupiedWorkspacesOnly": true,
   "dwlShowAllTags": false,
   "workspaceNameIcons": {},
   "waveProgressEnabled": true,
@@ -108,8 +108,8 @@
   "runningAppsCurrentWorkspace": false,
   "runningAppsGroupByApp": false,
   "centeringMode": "index",
-  "clockDateFormat": "",
-  "lockDateFormat": "",
+  "clockDateFormat": "ddd d MMM yyyy",
+  "lockDateFormat": "ddd d MMM yyyy",
   "mediaSize": 1,
   "appLauncherViewMode": "list",
   "spotlightModalViewMode": "list",
@@ -123,7 +123,7 @@
   "weatherEnabled": true,
   "networkPreference": "auto",
   "vpnLastConnected": "",
-  "iconTheme": "Adwaita",
+  "iconTheme": "System Default",
   "launcherLogoMode": "apps",
   "launcherLogoCustomPath": "",
   "launcherLogoColorOverride": "",
@@ -131,10 +131,10 @@
   "launcherLogoBrightness": 0.5,
   "launcherLogoContrast": 1,
   "launcherLogoSizeOffset": 0,
-  "fontFamily": "FiraCode Nerd Font",
-  "monoFontFamily": "FiraCode Nerd Font",
-  "fontWeight": 300,
-  "fontScale": 1,
+  "fontFamily": "FantasqueSansM Nerd Font Mono",
+  "monoFontFamily": "Adwaita Mono",
+  "fontWeight": 400,
+  "fontScale": 1.1,
   "notepadUseMonospace": true,
   "notepadFontFamily": "",
   "notepadFontSize": 14,
@@ -142,7 +142,7 @@
   "notepadTransparencyOverride": -1,
   "notepadLastCustomTransparency": 0.7,
   "soundsEnabled": true,
-  "useSystemSoundTheme": false,
+  "useSystemSoundTheme": true,
   "soundNewNotification": true,
   "soundVolumeChanged": false,
   "soundPluggedIn": true,
@@ -159,7 +159,7 @@
   "lockBeforeSuspend": false,
   "loginctlLockIntegration": true,
   "fadeToLockEnabled": true,
-  "fadeToLockGracePeriod": 5,
+  "fadeToLockGracePeriod": 3,
   "launchPrefix": "",
   "brightnessDevicePins": {},
   "wifiNetworkPins": {},
@@ -188,7 +188,7 @@
   "modalDarkenBackground": true,
   "lockScreenShowPowerActions": true,
   "enableFprint": false,
-  "maxFprintTries": 3,
+  "maxFprintTries": 15,
   "lockScreenActiveMonitor": "all",
   "lockScreenInactiveColor": "#000000",
   "hideBrightnessSlider": false,
@@ -204,7 +204,7 @@
   "osdIdleInhibitorEnabled": true,
   "osdMicMuteEnabled": true,
   "osdCapsLockEnabled": true,
-  "osdPowerProfileEnabled": true,
+  "osdPowerProfileEnabled": false,
   "osdAudioOutputEnabled": true,
   "powerActionConfirm": true,
   "powerActionHoldDuration": 0.5,
@@ -227,15 +227,13 @@
   "updaterUseCustomCommand": false,
   "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
-  "displayNameMode": "model",
+  "displayNameMode": "system",
   "screenPreferences": {
-    "dock": [
+    "wallpaper": [
       "all"
     ]
   },
-  "showOnLastDisplay": {
-    "dock": true
-  },
+  "showOnLastDisplay": {},
   "barConfigs": [
     {
       "id": "default",
@@ -248,14 +246,8 @@
       "showOnLastDisplay": true,
       "leftWidgets": [
         "launcherButton",
-        {
-          "id": "workspaceSwitcher",
-          "enabled": true
-        },
-        {
-          "id": "focusedWindow",
-          "enabled": true
-        }
+        "workspaceSwitcher",
+        "focusedWindow"
       ],
       "centerWidgets": [
         {
@@ -266,12 +258,13 @@
           "id": "clock",
           "enabled": true
         },
-        {
-          "id": "weather",
-          "enabled": true
-        }
+        "weather"
       ],
       "rightWidgets": [
+        {
+          "id": "privacyIndicator",
+          "enabled": true
+        },
         {
           "id": "colorPicker",
           "enabled": true
@@ -293,15 +286,7 @@
           "enabled": true
         },
         {
-          "id": "diskUsage",
-          "enabled": true
-        },
-        {
           "id": "notificationButton",
-          "enabled": true
-        },
-        {
-          "id": "vpn",
           "enabled": true
         },
         {
@@ -327,16 +312,18 @@
       "borderColor": "surfaceText",
       "borderOpacity": 1,
       "borderThickness": 1,
+      "widgetOutlineEnabled": false,
+      "widgetOutlineColor": "primary",
+      "widgetOutlineOpacity": 1,
+      "widgetOutlineThickness": 1,
       "fontScale": 1,
       "autoHide": false,
       "autoHideDelay": 250,
-      "openOnOverview": false,
+      "openOnOverview": true,
       "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
-      "widgetOutlineEnabled": false,
-      "widgetOutlineOpacity": 0.98,
-      "widgetOutlineColor": "primary"
+      "maximizeDetection": true
     }
   ],
   "configVersion": 2

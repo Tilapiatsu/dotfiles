@@ -7,9 +7,7 @@
     "enabled": true,
     "history": [
       "sh TILAPIATSU/PORTABLE_APPS/WOL/truenas_shutdown.sh",
-      "sh UBISOFT/RDP/connect_xfreerdp.sh",
-      "sh UBISOFT/RDP/connect_remmina.sh",
-      "sh UBISOFT/RDP/connect.sh"
+      "sh TILAPIATSU/UBISOFT/RDP/connect_xfreerdp.sh"
     ]
   },
   "niriWindows": {

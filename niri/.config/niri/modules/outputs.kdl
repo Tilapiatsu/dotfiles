@@ -3,36 +3,28 @@
 // You will have to remove "/-" and edit it before it takes effect.
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
 
+
 output "Eizo Nanao Corporation EV2436W 33227123" {
 //    mode "1920x1200@59.950" // Set resolution and refresh rate
 //    scale 1.0 // No scaling (use 2 for HiDPI)
     position x=0 y=0
 
-//    hot-corners {
-//        off
-//    }
 }
 
-output "ASUSTek COMPUTER INC PA279CRV T6LMSB006422" {
+output "PNP(BNQ) BenQ PD2705U G5S00780019" {
+    mode "3840x2160@60"
     position x=1920 y=0
-
-//    hot-corners {
-//        off
-//    }
+    scale 1.5
+    variable-refresh-rate
 }
 
 output "ASUSTek COMPUTER INC VG245 KBLMQS037104" {
-    position x=3840 y=0
-
-//    hot-corners {
-//        off
-//   }
+    position x=4480 y=0
 }
 
 output "Wacom Tech Cintiq 22 9GQ00Y1003935" {
     position x=2200 y=1440
+    //position x=1920 y=1200
     focus-at-startup
-//    hot-corners {
-//        off
-//    }
 }
+

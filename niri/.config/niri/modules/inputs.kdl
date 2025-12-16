@@ -1,19 +1,27 @@
 // ────────────── Input Configuration ──────────────
 //ni// https://github.com/YaLTeR/niri/wiki/Configuration:-Input
 
+
 input {
+    focus-follows-mouse max-scroll-amount="10%" // Automatically focus windows under the mouse pointeri 
+    workspace-auto-back-and-forth // Enable workspace back & forth switching
     keyboard {
         xkb {
-            layout "fr"
         }
-        numlock // Enable numlock on startup
+        numlock
     }
-
     touchpad {
-        tap // Enable tap-to-click
-        natural-scroll // Enable natural (macOS-style) scrolling
     }
+    mouse {
+	//scroll-method "on-button-down"
+        //scroll-button 274
+	//scroll-factor vertical=1.0 horizontal=-2.0
 
-    focus-follows-mouse // Automatically focus windows under the mouse pointer
-    workspace-auto-back-and-forth // Enable workspace back & forth switching
+    }
+    trackpoint {
+    }
+    tablet {
+	map-to-output "Wacom Tech Cintiq 22 9GQ00Y1003935"
+    }
 }
+

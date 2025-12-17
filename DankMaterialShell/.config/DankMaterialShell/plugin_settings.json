@@ -6,8 +6,8 @@
   "commandRunner": {
     "enabled": true,
     "history": [
-      "sh TILAPIATSU/PORTABLE_APPS/WOL/truenas_shutdown.sh",
-      "sh TILAPIATSU/UBISOFT/RDP/connect_xfreerdp.sh"
+      "sh TILAPIATSU/UBISOFT/RDP/connect_xfreerdp.sh",
+      "sh TILAPIATSU/PORTABLE_APPS/WOL/truenas_shutdown.sh"
     ]
   },
   "niriWindows": {

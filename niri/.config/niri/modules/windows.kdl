@@ -61,6 +61,7 @@ window-rule {
     match app-id=r#"^org\.gnome\.Nautilus$"#
     match app-id=r#"^xdg-desktop-portal$"#
     match app-id=r#"^org\.kitty\.pacseek$"#
+    match app-id="org.quickshell"
     match title="Settings"
     open-floating true
 }

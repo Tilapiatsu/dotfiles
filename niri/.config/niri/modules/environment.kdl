@@ -24,5 +24,6 @@ environment {
   QT_QPA_PLATFORMTHEME_QT6 "gtk3"
   TERMINAL "kitty"
   BROWSER "brave"
+  EDITOR "nvim"
   //NIRI_SOCKET "$NIRI_SOCKET"
 }

@@ -2,9 +2,9 @@
 PreviewSize=32
 
 [General]
+TerminalApplication=kitty
 Version=202
 ViewPropsTimestamp=2025,12,16,23,45,57.971
-TerminalApplication=kitty
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false

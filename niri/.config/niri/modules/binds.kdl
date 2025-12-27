@@ -32,7 +32,7 @@ binds {
     Mod+B hotkey-overlay-title="Open Browser: brave" { spawn-sh "brave"; }
     Mod+Shift+B hotkey-overlay-title="blender" { spawn-sh "blender"; }
     Mod+E hotkey-overlay-title="File Manager: dolphin" { spawn-sh "dolphin"; }
-    Mod+I hotkey-overlay-title="Package Manager: pacseek" { spawn-sh "kitty pacseek"; }
+    Mod+I hotkey-overlay-title="Package Manager: pacsea" { spawn-sh "kitty pacsea"; }
     Mod+C hotkey-overlay-title="Calc: gnome-calculator" { spawn-sh "gnome-calculator"; }
 
     // === Security ===

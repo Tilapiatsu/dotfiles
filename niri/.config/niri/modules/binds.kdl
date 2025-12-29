@@ -32,6 +32,7 @@ binds {
     Mod+B hotkey-overlay-title="Open Browser: brave" { spawn-sh "brave"; }
     Mod+Shift+B hotkey-overlay-title="blender" { spawn-sh "blender"; }
     Mod+E hotkey-overlay-title="File Manager: dolphin" { spawn-sh "dolphin"; }
+    Mod+Shift+E hotkey-overlay-title="File Manager: superfile" { spawn-sh "kitty spf"; }
     Mod+I hotkey-overlay-title="Package Manager: pacsea" { spawn-sh "kitty pacsea"; }
     Mod+C hotkey-overlay-title="Calc: gnome-calculator" { spawn-sh "gnome-calculator"; }
 
@@ -39,9 +40,12 @@ binds {
     Mod+L hotkey-overlay-title="Lock Screen" {
         spawn "dms" "ipc" "call" "lock" "lock";
     }
-    Mod+Shift+E { quit; }
+    Mod+Alt+Shift+E { quit; }
     Ctrl+Alt+Delete hotkey-overlay-title="Task Manager" {
         spawn "dms" "ipc" "call" "processlist" "toggle";
+    }
+    Ctrl+Alt+Shift+Delete hotkey-overlay-title="Task Manager: btop" {
+        spawn-sh "kitty btop";
     }
 
     // === Audio Controls ===

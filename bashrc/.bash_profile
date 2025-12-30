@@ -3,8 +3,8 @@
 #
 
 #export PATH="$PATH:$HOME/.scripts"
-export TILA = "$HOME/TILAPIATSU/"
-export DOT = "$HOME/DOTFILES/"
+export TILA="$HOME/TILAPIATSU/"
+export DOT="$HOME/DOTFILES/"
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 

@@ -28,5 +28,7 @@ environment {
   TERMINAL "kitty"
   BROWSER "brave"
   EDITOR "nvim"
+  tila "$HOME/TILAPIATSU/"
+  dot "$HOME/DOTFILES/"
   //NIRI_SOCKET "$NIRI_SOCKET"
 }

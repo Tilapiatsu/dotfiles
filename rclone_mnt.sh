@@ -6,5 +6,7 @@ cp ${home}/TILAPIATSU/RCLONE/GDRIVE/SOFTWARE_DATA/mnt-software_data.mount /etc/s
 cp ${home}/TILAPIATSU/RCLONE/GDRIVE/SOFTWARE_DATA/mnt-software_data.automount /etc/systemd/system/mnt-software_data.automount
 
 systemctl daemon-reload
-systemctl enable --now mnt-ressources.automount
-systemctl enable --now mnt-software_data.automount
+#systemctl enable --now mnt-ressources.automount
+#systemctl enable --now mnt-software_data.automount
+systemctl enable --now mnt-ressources.mount
+systemctl enable --now mnt-software_data.mount

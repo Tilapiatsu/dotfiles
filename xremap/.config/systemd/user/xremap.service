@@ -3,7 +3,9 @@ Description=Xremap
 After=default.target
 
 [Service]
-ExecStart=/home/tilapiatsu/.cargo/bin/xremap --watch=device %h/.config/xremap/config.yml
+Type=exec
+TimeOutStartSec=30
+ExecStart=/usr/bin/xremap --device /dev/input/event6 --watch=config %h/.config/xremap/config.yml
 Restart=always
 StandardOutput=journal
 StandardError=journal

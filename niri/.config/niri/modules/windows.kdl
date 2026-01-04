@@ -63,6 +63,7 @@ window-rule {
     match app-id=r#"^org\.kitty\.pacseek$"#
     match app-id="org.quickshell"
     match title="Settings"
+    match app-id="rclone_ui"
     open-floating true
 }
 window-rule {
@@ -97,5 +98,10 @@ window-rule {
 }
 window-rule {
     geometry-corner-radius 12
+    draw-border-with-background false
     clip-to-geometry true
+    focus-ring {
+	on
+	width 2
+    }
 }

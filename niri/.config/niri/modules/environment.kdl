@@ -30,5 +30,6 @@ environment {
   EDITOR "nvim"
   tila "$HOME/TILAPIATSU/"
   dot "$HOME/DOTFILES/"
+  DISPLAY ":0"
   //NIRI_SOCKET "$NIRI_SOCKET"
 }

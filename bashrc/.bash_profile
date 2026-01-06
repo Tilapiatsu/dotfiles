@@ -8,3 +8,4 @@ export DOT="$HOME/DOTFILES/"
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
+. "$HOME/.cargo/env"

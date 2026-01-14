@@ -18,7 +18,7 @@ return {
         colors.editor.bg = "#13161e"
         colors.editor.cursor = "#255869"
         --colors.lsp.error = '#852029'
-        colors.editor.selection = "#232934"
+        colors.editor.selection = "#122231"
       end,
     })
     vim.cmd.colorscheme("material-deep-ocean")

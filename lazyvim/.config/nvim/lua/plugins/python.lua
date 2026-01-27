@@ -1,7 +1,6 @@
--- if true then
---   return {}
--- end
-
+if true then
+  return {}
+end
 return {
   {
     "nvim-treesitter/nvim-treesitter",
@@ -36,14 +35,14 @@ return {
           },
         },
       },
-      --   setup = {
-      --     [ruff] = function()
-      --       Snacks.util.lsp.on({ name = ruff }, function(_, client)
-      --         -- Disable hover in favor of Pyright
-      --         client.server_capabilities.hoverProvider = false
-      --       end)
-      --     end,
-      --   },
+      setup = {
+        [ruff] = function()
+          Snacks.util.lsp.on({ name = ruff }, function(_, client)
+            -- Disable hover in favor of Pyright
+            client.server_capabilities.hoverProvider = false
+          end)
+        end,
+      },
     },
   },
   {
@@ -57,18 +56,35 @@ return {
     end,
   },
   {
-    "nvim-neotest/neotest-python",
+    "nvim-neotest/neotest",
+    optional = true,
+    dependencies = {
+      "nvim-neotest/neotest-python",
+    },
+    opts = {
+      adapters = {
+        ["neotest-python"] = {
+          -- Here you can specify the settings for the adapter, i.e.
+          -- runner = "pytest",
+          -- python = ".venv/bin/python",
+        },
+      },
+    },
   },
   {
-    "mfussenegger/nvim-dap-python",
-  -- stylua: ignore
-  keys = {
-    { "<leader>dPt", function() require('dap-python').test_method() end, desc = "Debug Method", ft = "python" },
-    { "<leader>dPc", function() require('dap-python').test_class() end, desc = "Debug Class", ft = "python" },
-  },
-    config = function()
-      require("dap-python").setup("debugpy-adapter")
-    end,
+    "mfussenegger/nvim-dap",
+    optional = true,
+    dependencies = {
+      "mfussenegger/nvim-dap-python",
+    -- stylua: ignore
+    keys = {
+      { "<leader>dPt", function() require('dap-python').test_method() end, desc = "Debug Method", ft = "python" },
+      { "<leader>dPc", function() require('dap-python').test_class() end, desc = "Debug Class", ft = "python" },
+    },
+      config = function()
+        require("dap-python").setup("debugpy-adapter")
+      end,
+    },
   },
   {
     "linux-cultist/venv-selector.nvim",

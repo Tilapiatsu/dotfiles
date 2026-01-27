@@ -12,3 +12,5 @@ alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=dow
 
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
+
+. "$HOME/.local/bin/env"

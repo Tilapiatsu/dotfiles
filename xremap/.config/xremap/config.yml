@@ -1,32 +1,34 @@
-modmap:
-  - name: Wacom Stylus Disable buttons
-#    device: 
+#modmap:
+#  - name: Wacom Stylus Disable buttons
+#    device:
 #      only: '/dev/input/event6'
-    remap:
-      #BTN_STYLUS: []
-      #BTN_STYLUS2: []
-      BTN_STYLUS: BTN_STYLUS
-      BTN_STYLUS2: BTN_STYLUS2
-      BTN_TOOL_PEN: BTN_TOOL_PEN
-      BTN_TOOL_RUBBER: BTN_TOOL_RUBBER
-      BTN_TOOL_AIRBRUSH: BTN_TOOL_AIRBRUSH
-      #BTN_STYLUS3: BTN_STYLUS3
-      BTN_TOUCH: BTN_TOUCH
-      #ABS_X: ABS_X
-      #ABS_Y: ABS_Y
-      #ABS_Z: ABS_Z
-      #ABS_WHEEL: ABS_WHEEL
-      #ABS_PRESSURE: ABS_PRESSURE
-      #ABS_DISTANCE: ABS_DISTANCE
-      #ABS_TILT_X: ABS_TILT_X
-      #ABS_TILT_Y: ABS_TILT_Y
-      #ABS_MISC: ABS_MISC
-      #EV_MSC: EV_MSC
-
+#    remap:
+#BTN_STYLUS: []
+#BTN_STYLUS2: []
+#BTN_STYLUS: BTN_STYLUS
+#BTN_STYLUS2: BTN_STYLUS2
+#BTN_TOOL_PEN: BTN_TOOL_PEN
+#BTN_TOOL_RUBBER: BTN_TOOL_RUBBER
+#BTN_TOOL_AIRBRUSH: BTN_TOOL_AIRBRUSH
+#BTN_STYLUS3: BTN_STYLUS3
+#BTN_TOUCH: BTN_TOUCH
+#ABS_X: ABS_X
+#ABS_Y: ABS_Y
+#ABS_Z: ABS_Z
+#ABS_WHEEL: ABS_WHEEL
+#ABS_PRESSURE: ABS_PRESSURE
+#ABS_DISTANCE: ABS_DISTANCE
+#ABS_TILT_X: ABS_TILT_X
+#ABS_TILT_Y: ABS_TILT_Y
+#ABS_MISC: ABS_MISC
+#EV_MSC: EV_MSC
+virtual_modifiers:
+  - BTN_STYLUS
+  - BTN_STYLUS2
 keymap:
   - name: Wacom Remap Stylus Buttons
-#    device: 
-#      only: '/dev/input/event6'
+    #    device:
+    #      only: '/dev/input/event6'
     remap:
       BTN_STYLUS-BTN_TOUCH: BTN_RIGHT
       BTN_STYLUS2-BTN_TOUCH: BTN_MIDDLE

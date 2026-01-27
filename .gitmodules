@@ -1,3 +1,7 @@
 [submodule "nvim/.config/nvim"]
 	path = nvim/.config/nvim
 	url = git@github.com:Tilapiatsu/kickstart.nvim.git
+[submodule "blender/.config/blender/5.0"]
+	path = blender/.config/blender/5.0
+	url = git@github.com:Tilapiatsu/blender-custom_config.git
+	branch = 5.0

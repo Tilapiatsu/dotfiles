@@ -1,5 +1,5 @@
 return {
-  "b0o/blender.nvim",
+  "Tilapiatsu/blender.nvim",
   config = function()
     require("blender").setup({
       profiles = { --                 Profile[]?            list of blender profiles

@@ -18,7 +18,9 @@ hotkey-overlay {
 
 environment {
   XDG_CURRENT_DESKTOP "niri"
-  QT_QPA_PLATFORM "wayland"
+  XDG_SESSION_DESKTOP "niri"
+  DESKTOP_SESSION "wlroots"
+  // QT_QPA_PLATFORM "wayland"
   ELECTRON_OZONE_PLATFORM_HINT "auto"
   //QT_QPA_PLATFORMTHEME "gtk3"
   //QT_QPA_PLATFORMTHEME_QT6 "gtk3"
@@ -28,8 +30,8 @@ environment {
   TERMINAL "kitty"
   BROWSER "brave"
   EDITOR "nvim"
-  tila "$HOME/TILAPIATSU/"
-  dot "$HOME/DOTFILES/"
+  tila "~/TILAPIATSU/"
+  dot "~/DOTFILES/"
   DISPLAY ":0"
   //NIRI_SOCKET "$NIRI_SOCKET"
 }

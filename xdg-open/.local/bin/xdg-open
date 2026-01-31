@@ -1,0 +1,3 @@
+#!/bin/sh
+# bypass xdg-open
+exec gio open "$@"

@@ -26,6 +26,7 @@ return {
         colors.editor.active = "#1e222a"
         colors.syntax.comments = "#4f5568"
         colors.editor.contrast = "#1a1e25"
+        colors.editor.border = "#2b3743"
         colors.backgrounds.sidebars = colors.editor.bg
         colors.backgrounds.floating_windows = "#1d1f26"
         colors.backgrounds.non_current_windows = colors.editor.bg

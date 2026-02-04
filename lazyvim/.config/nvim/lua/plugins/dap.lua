@@ -24,8 +24,10 @@ return {
     local dapui = require("dapui")
     dapui.setup(opts)
     dap.listeners.after.event_initialized["dapui_config"] = function()
+      vim.cmd(":w")
       dapui.open({})
     end
+    -- disable closing dap when finished
     -- dap.listeners.before.event_terminated["dapui_config"] = function()
     -- dapui.close {}
     -- end

@@ -90,6 +90,7 @@ window-rule {
     match app-id="blender"
     match app-id="krita"
     match app-id="teams"
+    match app-id="vlc"
     opacity 1.0
 }
 window-rule {

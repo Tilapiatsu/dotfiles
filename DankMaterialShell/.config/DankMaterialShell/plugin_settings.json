@@ -6,8 +6,8 @@
   "commandRunner": {
     "enabled": true,
     "history": [
-      "blender",
       "sh TILAPIATSU/UBISOFT/RDP/connect_xfreerdp.sh",
+      "blender",
       "sh TILAPIATSU/PORTABLE_APPS/WOL/truenas_shutdown.sh"
     ]
   },

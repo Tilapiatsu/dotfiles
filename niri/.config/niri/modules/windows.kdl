@@ -89,6 +89,7 @@ window-rule {
     match app-id="brave"
     match app-id="blender"
     match app-id="krita"
+    match app-id="teams"
     opacity 1.0
 }
 window-rule {
@@ -101,7 +102,7 @@ window-rule {
     draw-border-with-background false
     clip-to-geometry true
     focus-ring {
-	on
-	width 2
+	    on
+	    width 2
     }
 }

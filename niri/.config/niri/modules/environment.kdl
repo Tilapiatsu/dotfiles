@@ -26,6 +26,7 @@ environment {
   //QT_QPA_PLATFORMTHEME_QT6 "gtk3"
   QT_QPA_PLATFORMTHEME_QT6 "gtk6ct"
   QT_QPA_PLATFORMTHEME "qt6ct"
+  //QT_QPA_PLATFORMTHEME "wayland"
   //XDG_CONFIG_HOME "kdeglobals"
   TERMINAL "kitty"
   BROWSER "brave"

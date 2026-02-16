@@ -4,7 +4,7 @@
 
 return {
   "marko-cerovac/material.nvim",
-  priority = 1000, -- Make sure to load this before all the other start plugins.
+  priority = 2000, -- Make sure to load this before all the other start plugins.
   config = function()
     require("material").setup({
       styles = {

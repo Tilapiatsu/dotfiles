@@ -1,6 +1,8 @@
 {
   "currentThemeName": "dynamic",
+  "currentThemeCategory": "generic",
   "customThemeFile": "",
+  "registryThemeVariants": {},
   "matugenScheme": "scheme-tonal-spot",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
@@ -9,6 +11,15 @@
   "widgetBackgroundColor": "sch",
   "widgetColorMode": "default",
   "cornerRadius": 12,
+  "niriLayoutGapsOverride": -1,
+  "niriLayoutRadiusOverride": -1,
+  "niriLayoutBorderSize": -1,
+  "hyprlandLayoutGapsOverride": -1,
+  "hyprlandLayoutRadiusOverride": -1,
+  "hyprlandLayoutBorderSize": -1,
+  "mangoLayoutGapsOverride": -1,
+  "mangoLayoutRadiusOverride": -1,
+  "mangoLayoutBorderSize": -1,
   "use24HourClock": true,
   "showSeconds": false,
   "useFahrenheit": false,
@@ -39,11 +50,15 @@
   "controlCenterShowNetworkIcon": true,
   "controlCenterShowBluetoothIcon": true,
   "controlCenterShowAudioIcon": true,
+  "controlCenterShowAudioPercent": false,
   "controlCenterShowVpnIcon": true,
   "controlCenterShowBrightnessIcon": false,
+  "controlCenterShowBrightnessPercent": false,
   "controlCenterShowMicIcon": true,
+  "controlCenterShowMicPercent": false,
   "controlCenterShowBatteryIcon": false,
   "controlCenterShowPrinterIcon": false,
+  "controlCenterShowScreenSharingIcon": true,
   "showPrivacyButton": true,
   "privacyShowMicIcon": false,
   "privacyShowCameraIcon": false,
@@ -91,22 +106,60 @@
     }
   ],
   "showWorkspaceIndex": false,
+  "showWorkspaceName": false,
   "showWorkspacePadding": false,
   "workspaceScrolling": false,
   "showWorkspaceApps": false,
   "maxWorkspaceIcons": 3,
-  "workspacesPerMonitor": true,
+  "groupWorkspaceApps": true,
+  "workspaceFollowFocus": false,
   "showOccupiedWorkspacesOnly": true,
+  "reverseScrolling": false,
   "dwlShowAllTags": false,
+  "workspaceColorMode": "default",
+  "workspaceUnfocusedColorMode": "default",
+  "workspaceUrgentColorMode": "default",
+  "workspaceFocusedBorderEnabled": false,
+  "workspaceFocusedBorderColor": "primary",
+  "workspaceFocusedBorderThickness": 2,
   "workspaceNameIcons": {},
   "waveProgressEnabled": true,
   "scrollTitleEnabled": true,
+  "audioVisualizerEnabled": true,
+  "audioScrollMode": "volume",
   "clockCompactMode": false,
   "focusedWindowCompactMode": false,
   "runningAppsCompactMode": true,
   "keyboardLayoutNameCompactMode": false,
   "runningAppsCurrentWorkspace": false,
   "runningAppsGroupByApp": false,
+  "appIdSubstitutions": [
+    {
+      "pattern": "Spotify",
+      "replacement": "spotify",
+      "type": "exact"
+    },
+    {
+      "pattern": "beepertexts",
+      "replacement": "beeper",
+      "type": "exact"
+    },
+    {
+      "pattern": "home assistant desktop",
+      "replacement": "homeassistant-desktop",
+      "type": "exact"
+    },
+    {
+      "pattern": "com.transmissionbt.transmission",
+      "replacement": "transmission-gtk",
+      "type": "contains"
+    },
+    {
+      "pattern": "^steam_app_(\\d+)$",
+      "replacement": "steam_icon_$1",
+      "type": "regex"
+    }
+  ],
   "centeringMode": "index",
   "clockDateFormat": "ddd d MMM yyyy",
   "lockDateFormat": "ddd d MMM yyyy",
@@ -117,13 +170,27 @@
   "appLauncherGridColumns": 4,
   "spotlightCloseNiriOverview": true,
   "niriOverviewOverlayEnabled": true,
-  "weatherLocation": "Rumilly, 74150",
-  "weatherCoordinates": "45.8672156,5.9425679",
   "useAutoLocation": false,
   "weatherEnabled": true,
   "networkPreference": "auto",
   "vpnLastConnected": "",
   "iconTheme": "System Default",
+  "cursorSettings": {
+    "theme": "System Default",
+    "size": 24,
+    "niri": {
+      "hideWhenTyping": false,
+      "hideAfterInactiveMs": 0
+    },
+    "hyprland": {
+      "hideOnKeyPress": false,
+      "hideOnTouch": false,
+      "inactiveTimeout": 0
+    },
+    "dwl": {
+      "cursorHideTimeout": 0
+    }
+  },
   "launcherLogoMode": "apps",
   "launcherLogoCustomPath": "",
   "launcherLogoColorOverride": "",
@@ -156,10 +223,13 @@
   "batterySuspendTimeout": 0,
   "batterySuspendBehavior": 0,
   "batteryProfileName": "",
+  "batteryChargeLimit": 100,
   "lockBeforeSuspend": false,
   "loginctlLockIntegration": true,
   "fadeToLockEnabled": true,
   "fadeToLockGracePeriod": 3,
+  "fadeToDpmsEnabled": true,
+  "fadeToDpmsGracePeriod": 5,
   "launchPrefix": "",
   "brightnessDevicePins": {},
   "wifiNetworkPins": {},
@@ -170,6 +240,27 @@
   "qtThemingEnabled": false,
   "syncModeWithPortal": false,
   "terminalsAlwaysDark": false,
+  "runDmsMatugenTemplates": true,
+  "matugenTemplateGtk": true,
+  "matugenTemplateNiri": true,
+  "matugenTemplateHyprland": true,
+  "matugenTemplateMangowc": true,
+  "matugenTemplateQt5ct": true,
+  "matugenTemplateQt6ct": true,
+  "matugenTemplateFirefox": true,
+  "matugenTemplatePywalfox": true,
+  "matugenTemplateZenBrowser": true,
+  "matugenTemplateVesktop": true,
+  "matugenTemplateEquibop": true,
+  "matugenTemplateGhostty": true,
+  "matugenTemplateKitty": true,
+  "matugenTemplateFoot": true,
+  "matugenTemplateAlacritty": true,
+  "matugenTemplateNeovim": false,
+  "matugenTemplateWezterm": true,
+  "matugenTemplateDgop": true,
+  "matugenTemplateKcolorscheme": true,
+  "matugenTemplateVscode": true,
   "showDock": false,
   "dockAutoHide": false,
   "dockGroupByApp": false,
@@ -184,18 +275,32 @@
   "dockBorderColor": "surfaceText",
   "dockBorderOpacity": 1,
   "dockBorderThickness": 1,
+  "dockIsolateDisplays": false,
   "notificationOverlayEnabled": false,
   "modalDarkenBackground": true,
   "lockScreenShowPowerActions": true,
+  "lockScreenShowSystemIcons": true,
+  "lockScreenShowTime": true,
+  "lockScreenShowDate": true,
+  "lockScreenShowProfileImage": true,
+  "lockScreenShowPasswordField": true,
   "enableFprint": false,
   "maxFprintTries": 15,
   "lockScreenActiveMonitor": "all",
   "lockScreenInactiveColor": "#000000",
+  "lockScreenNotificationMode": 0,
   "hideBrightnessSlider": false,
   "notificationTimeoutLow": 5000,
   "notificationTimeoutNormal": 5000,
   "notificationTimeoutCritical": 0,
+  "notificationCompactMode": false,
   "notificationPopupPosition": 0,
+  "notificationHistoryEnabled": true,
+  "notificationHistoryMaxCount": 50,
+  "notificationHistoryMaxAgeDays": 7,
+  "notificationHistorySaveLow": true,
+  "notificationHistorySaveNormal": true,
+  "notificationHistorySaveCritical": true,
   "osdAlwaysShowValue": false,
   "osdPosition": 5,
   "osdVolumeEnabled": true,
@@ -224,6 +329,7 @@
   "customPowerActionHibernate": "",
   "customPowerActionReboot": "",
   "customPowerActionPowerOff": "",
+  "updaterHideWidget": false,
   "updaterUseCustomCommand": false,
   "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
@@ -234,6 +340,8 @@
     ]
   },
   "showOnLastDisplay": {},
+  "niriOutputSettings": {},
+  "hyprlandOutputSettings": {},
   "barConfigs": [
     {
       "id": "default",
@@ -330,5 +438,257 @@
       "maximizeDetection": true
     }
   ],
-  "configVersion": 2
+  "desktopClockEnabled": false,
+  "desktopClockStyle": "analog",
+  "desktopClockTransparency": 0.8,
+  "desktopClockColorMode": "primary",
+  "desktopClockCustomColor": {
+    "r": 1,
+    "g": 1,
+    "b": 1,
+    "a": 1,
+    "hsvHue": -1,
+    "hsvSaturation": 0,
+    "hsvValue": 1,
+    "hslHue": -1,
+    "hslSaturation": 0,
+    "hslLightness": 1,
+    "valid": true
+  },
+  "desktopClockShowDate": true,
+  "desktopClockShowAnalogNumbers": false,
+  "desktopClockShowAnalogSeconds": true,
+  "desktopClockX": -1,
+  "desktopClockY": -1,
+  "desktopClockWidth": 280,
+  "desktopClockHeight": 180,
+  "desktopClockDisplayPreferences": [
+    "all"
+  ],
+  "systemMonitorEnabled": false,
+  "systemMonitorShowHeader": true,
+  "systemMonitorTransparency": 0.8,
+  "systemMonitorColorMode": "primary",
+  "systemMonitorCustomColor": {
+    "r": 1,
+    "g": 1,
+    "b": 1,
+    "a": 1,
+    "hsvHue": -1,
+    "hsvSaturation": 0,
+    "hsvValue": 1,
+    "hslHue": -1,
+    "hslSaturation": 0,
+    "hslLightness": 1,
+    "valid": true
+  },
+  "systemMonitorShowCpu": true,
+  "systemMonitorShowCpuGraph": true,
+  "systemMonitorShowCpuTemp": true,
+  "systemMonitorShowGpuTemp": false,
+  "systemMonitorGpuPciId": "",
+  "systemMonitorShowMemory": true,
+  "systemMonitorShowMemoryGraph": true,
+  "systemMonitorShowNetwork": true,
+  "systemMonitorShowNetworkGraph": true,
+  "systemMonitorShowDisk": true,
+  "systemMonitorShowTopProcesses": false,
+  "systemMonitorTopProcessCount": 3,
+  "systemMonitorTopProcessSortBy": "cpu",
+  "systemMonitorGraphInterval": 60,
+  "systemMonitorLayoutMode": "auto",
+  "systemMonitorX": -1,
+  "systemMonitorY": -1,
+  "systemMonitorWidth": 320,
+  "systemMonitorHeight": 480,
+  "systemMonitorDisplayPreferences": [
+    "all"
+  ],
+  "systemMonitorVariants": [],
+  "desktopWidgetPositions": {},
+  "desktopWidgetGridSettings": {},
+  "desktopWidgetInstances": [
+    {
+      "id": "dw_1771277011380_4bebrgcfu",
+      "widgetType": "desktopClock",
+      "name": "Desktop Clock",
+      "enabled": true,
+      "config": {
+        "style": "digital",
+        "transparency": 0.7,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showDate": true,
+        "showAnalogNumbers": false,
+        "showAnalogSeconds": true,
+        "displayPreferences": [
+          "all"
+        ],
+        "showOnOverlay": false,
+        "showOnOverview": false,
+        "showOnOverviewOnly": false,
+        "clickThrough": false,
+        "syncPositionAcrossScreens": true
+      },
+      "positions": {
+        "HDMI-A-1": {
+          "width": 200,
+          "height": 200,
+          "x": 860,
+          "y": 440
+        },
+        "DP-1": {
+          "width": 233.0546875,
+          "height": 183.60546875,
+          "x": 1680.453125,
+          "y": 51.8046875
+        },
+        "DP-2": {
+          "width": 200,
+          "height": 200,
+          "x": 1180,
+          "y": 620
+        },
+        "DP-3": {
+          "width": 200,
+          "height": 200,
+          "x": 860,
+          "y": 440
+        },
+        "_synced": {
+          "x": 0.8925760904947918,
+          "y": 0.0455107060185185,
+          "width": 263.41015625,
+          "height": 195.0703125
+        }
+      },
+      "group": "dwg_1771279230966_cxs515tvo"
+    },
+    {
+      "id": "dw_1771277153280_8a4mduw0a",
+      "widgetType": "systemMonitor",
+      "name": "System Monitor",
+      "enabled": true,
+      "config": {
+        "showHeader": true,
+        "transparency": 0.61,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showCpu": true,
+        "showCpuGraph": true,
+        "showCpuTemp": true,
+        "showGpuTemp": true,
+        "gpuPciId": "10de:2216",
+        "showMemory": true,
+        "showMemoryGraph": true,
+        "showNetwork": true,
+        "showNetworkGraph": true,
+        "showDisk": true,
+        "showTopProcesses": false,
+        "topProcessCount": 3,
+        "topProcessSortBy": "cpu",
+        "layoutMode": "auto",
+        "graphInterval": 60,
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "clickThrough": false,
+        "showOnOverviewOnly": false,
+        "showOnOverview": false
+      },
+      "positions": {
+        "HDMI-A-1": {
+          "width": 320,
+          "height": 480,
+          "x": 800,
+          "y": 300
+        },
+        "DP-1": {
+          "width": 320,
+          "height": 480,
+          "x": 1594.73828125,
+          "y": 252.50390625
+        },
+        "DP-2": {
+          "width": 320,
+          "height": 480,
+          "x": 1120,
+          "y": 480
+        },
+        "DP-3": {
+          "width": 320,
+          "height": 480,
+          "x": 800,
+          "y": 300
+        },
+        "_synced": {
+          "x": 0.8965006510416668,
+          "y": 0.2337320963541667,
+          "width": 263.91015625,
+          "height": 477.3984375
+        }
+      },
+      "group": "dwg_1771279230966_cxs515tvo"
+    },
+    {
+      "id": "dw_1771278978411_hxw4ezusb",
+      "widgetType": "dankDesktopWeather",
+      "name": "Dank Desktop Weather",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "viewMode": "forecast",
+        "showHourlyForecast": true
+      },
+      "positions": {
+        "HDMI-A-1": {
+          "width": 200,
+          "height": 200,
+          "x": 860,
+          "y": 440
+        },
+        "DP-1": {
+          "width": 200,
+          "height": 200,
+          "x": 1649.58984375,
+          "y": 789.703125
+        },
+        "DP-2": {
+          "width": 200,
+          "height": 200,
+          "x": 1180,
+          "y": 620
+        },
+        "DP-3": {
+          "width": 200,
+          "height": 200,
+          "x": 860,
+          "y": 440
+        },
+        "_synced": {
+          "x": 0.003031412760416785,
+          "y": 0.041985857928240854,
+          "width": 280,
+          "height": 392.33984375
+        }
+      }
+    }
+  ],
+  "desktopWidgetGroups": [
+    {
+      "id": "dwg_1771279230966_cxs515tvo",
+      "name": "monitor",
+      "collapsed": false
+    }
+  ],
+  "builtInPluginSettings": {
+    "dms_settings_search": {
+      "trigger": "?"
+    }
+  },
+  "configVersion": 5
 }

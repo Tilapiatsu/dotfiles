@@ -27,9 +27,9 @@ virtual_modifiers:
   - BTN_STYLUS2
 keymap:
   - name: Wacom Remap Stylus Buttons
-    #    device:
-    #      only: '/dev/input/event6'
+    # device:
+    #   only: "/dev/input/event6"
     remap:
       BTN_STYLUS-BTN_TOUCH: BTN_RIGHT
       BTN_STYLUS2-BTN_TOUCH: BTN_MIDDLE
-#      BTN_STYLUS: KEY_A
+      # BTN_TOOL_PEN: BTN_TOOL_PEN

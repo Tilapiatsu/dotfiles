@@ -21,7 +21,7 @@ input {
     trackpoint {
     }
     tablet {
-	map-to-output "Wacom Tech Cintiq 22 9GQ00Y1003935"
+      map-to-output "Wacom Tech Cintiq 22 9GQ00Y1003935"
     }
 }
 

@@ -7,6 +7,8 @@
     "enabled": true,
     "history": [
       "sh TILAPIATSU/UBISOFT/RDP/connect_xfreerdp.sh",
+      "wine /home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Pureref/PureRef.exe",
+      "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Pureref/PureRef.exe",
       "blender",
       "sh TILAPIATSU/PORTABLE_APPS/WOL/truenas_shutdown.sh"
     ]

@@ -9,6 +9,7 @@
   "wallpaperPathDark": "",
   "monitorWallpapersLight": {},
   "monitorWallpapersDark": {},
+  "monitorWallpaperFillModes": {},
   "wallpaperTransition": "fade",
   "includedTransitions": [
     "fade",
@@ -37,16 +38,26 @@
   "longitude": 0,
   "nightModeUseIPLocation": false,
   "nightModeLocationProvider": "",
+  "themeModeAutoEnabled": false,
+  "themeModeAutoMode": "time",
+  "themeModeStartHour": 18,
+  "themeModeStartMinute": 0,
+  "themeModeEndHour": 6,
+  "themeModeEndMinute": 0,
+  "themeModeShareGammaSettings": true,
   "weatherLocation": "Rumilly, 74150",
   "weatherCoordinates": "45.8672156,5.9425679",
   "pinnedApps": [],
+  "barPinnedApps": [],
+  "dockLauncherPosition": 0,
   "hiddenTrayIds": [],
+  "trayItemOrder": [],
   "recentColors": [
+    "#8d5252",
+    "#eaa7a7",
     "#0b151b",
     "#0a1218",
-    "#0d0f15",
-    "#767676",
-    "#717271"
+    "#0d0f15"
   ],
   "showThirdPartyPlugins": true,
   "launchPrefix": "",
@@ -60,5 +71,12 @@
   "enabledGpuPciIds": [],
   "wifiDeviceOverride": "",
   "weatherHourlyDetailed": true,
-  "configVersion": 2
+  "hiddenApps": [],
+  "appOverrides": {},
+  "searchAppActions": true,
+  "vpnLastConnected": "",
+  "deviceMaxVolumes": {},
+  "hiddenOutputDeviceNames": [],
+  "hiddenInputDeviceNames": [],
+  "configVersion": 3
 }

@@ -697,8 +697,8 @@
           "y": 300
         },
         "_synced": {
-          "x": 0.8625467936197917,
-          "y": 0.2337320963541667,
+          "x": 0.892937723795573,
+          "y": 0.2441324869791667,
           "width": 263.91015625,
           "height": 477.3984375
         }
@@ -706,7 +706,7 @@
       "group": "dwg_1771279230966_cxs515tvo"
     },
     {
-      "id": "dw_1771278978411_hxw4ezusb",
+      "id": "dw_1772502309613_uhyp4sol7",
       "widgetType": "dankDesktopWeather",
       "name": "Dank Desktop Weather",
       "enabled": true,
@@ -716,6 +716,7 @@
         ],
         "syncPositionAcrossScreens": true,
         "viewMode": "forecast",
+        "showWind": true,
         "showHourlyForecast": true
       },
       "positions": {
@@ -728,14 +729,14 @@
         "DP-1": {
           "width": 200,
           "height": 200,
-          "x": 1649.58984375,
-          "y": 789.703125
+          "x": 860,
+          "y": 500
         },
         "DP-2": {
           "width": 200,
           "height": 200,
-          "x": 1180,
-          "y": 620
+          "x": 24.66796875,
+          "y": 57.31640625
         },
         "DP-3": {
           "width": 200,
@@ -744,10 +745,10 @@
           "y": 440
         },
         "_synced": {
-          "x": 0.003814697265625,
-          "y": 0.047194191261574286,
-          "width": 280,
-          "height": 418.85546875
+          "x": 0.0032557169596354168,
+          "y": 0.04850802951388886,
+          "width": 304.67578125,
+          "height": 490.9453125
         }
       }
     }

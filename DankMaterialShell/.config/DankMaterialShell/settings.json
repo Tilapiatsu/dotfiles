@@ -589,7 +589,7 @@
       "enabled": true,
       "config": {
         "style": "digital",
-        "transparency": 0.7,
+        "transparency": 0.82,
         "colorMode": "primary",
         "customColor": "#ffffff",
         "showDate": true,
@@ -645,7 +645,7 @@
       "enabled": true,
       "config": {
         "showHeader": true,
-        "transparency": 0.61,
+        "transparency": 0.79,
         "colorMode": "primary",
         "customColor": "#ffffff",
         "showCpu": true,
@@ -706,7 +706,7 @@
       "group": "dwg_1771279230966_cxs515tvo"
     },
     {
-      "id": "dw_1772502309613_uhyp4sol7",
+      "id": "dw_1772574571000_to950hwpk",
       "widgetType": "dankDesktopWeather",
       "name": "Dank Desktop Weather",
       "enabled": true,
@@ -714,10 +714,9 @@
         "displayPreferences": [
           "all"
         ],
-        "syncPositionAcrossScreens": true,
         "viewMode": "forecast",
-        "showWind": true,
-        "showHourlyForecast": true
+        "showHourlyForecast": true,
+        "syncPositionAcrossScreens": true
       },
       "positions": {
         "HDMI-A-1": {
@@ -733,10 +732,10 @@
           "y": 500
         },
         "DP-2": {
-          "width": 200,
-          "height": 200,
-          "x": 24.66796875,
-          "y": 57.31640625
+          "width": 302.3046875,
+          "height": 338.49609375,
+          "x": 13.1875,
+          "y": 57.76171875
         },
         "DP-3": {
           "width": 200,
@@ -745,10 +744,10 @@
           "y": 440
         },
         "_synced": {
-          "x": 0.0032557169596354168,
-          "y": 0.04850802951388886,
-          "width": 304.67578125,
-          "height": 490.9453125
+          "x": 0.007265726725260535,
+          "y": 0.04966543692129627,
+          "width": 200,
+          "height": 200
         }
       }
     }

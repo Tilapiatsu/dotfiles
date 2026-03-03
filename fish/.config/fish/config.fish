@@ -1,4 +1,5 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
+source "$HOME/.cargo/env.fish"
 
 starship init fish | source
 

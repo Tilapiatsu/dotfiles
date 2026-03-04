@@ -13,16 +13,72 @@
       "exec": "webapp-manager",
       "icon": "webapp-manager",
       "comment": "Lancer les sites Web comme des applications",
-      "usageCount": 1,
-      "lastUsed": 1772574368151
+      "usageCount": 3,
+      "lastUsed": 1772611694342
     },
     "blender": {
       "name": "Blender",
       "exec": "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Blender/blender %f",
       "icon": "blender",
       "comment": "Modélisation 3D, animation, rendu et post-production",
+      "usageCount": 2,
+      "lastUsed": 1772615065603
+    },
+    "teams-for-linux": {
+      "name": "Microsoft Teams for Linux",
+      "exec": "teams-for-linux --gtk-version=3 %U",
+      "icon": "teams-for-linux",
+      "comment": "Unofficial Microsoft Teams client for Linux.",
+      "usageCount": 2,
+      "lastUsed": 1772611628983
+    },
+    "signal": {
+      "name": "Signal",
+      "exec": "signal-desktop -- %u",
+      "icon": "signal-desktop",
+      "comment": "Signal - Private Messenger",
       "usageCount": 1,
-      "lastUsed": 1772574513221
+      "lastUsed": 1772609604869
+    },
+    "org.moson.pacseek": {
+      "name": "pacseek",
+      "exec": "pacseek",
+      "icon": "pacseek",
+      "comment": "A terminal user interface for searching and installing Arch Linux packages",
+      "usageCount": 1,
+      "lastUsed": 1772610129668
+    },
+    "com.cisco.secureclient.gui": {
+      "name": "Cisco Secure Client",
+      "exec": "/opt/cisco/secureclient/bin/vpnui",
+      "icon": "cisco-secure-client",
+      "comment": "Connect to a private network using the Cisco Secure Client",
+      "usageCount": 7,
+      "lastUsed": 1772614484392
+    },
+    "WebApp-Callendar0171": {
+      "name": "Callendar",
+      "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
+      "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
+      "comment": "Application web",
+      "usageCount": 1,
+      "lastUsed": 1772611689730
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "exec": "/usr/bin/obsidian %U",
+      "icon": "obsidian",
+      "comment": "Obsidian",
+      "usageCount": 2,
+      "lastUsed": 1772613763620
+    },
+    "WebApp-Calendar0171": {
+      "name": "Calendar",
+      "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
+      "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
+      "comment": "Application web",
+      "usageCount": 1,
+      "lastUsed": 1772614083233
     }
   }
 }

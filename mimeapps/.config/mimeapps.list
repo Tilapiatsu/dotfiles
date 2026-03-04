@@ -1,5 +1,6 @@
 [Added Associations]
 application/json=vscodium-wayland.desktop
+application/octet-stream=PureRef.desktop;
 application/pdf=org.kde.okular.desktop
 application/x-7z-compressed=org.kde.ark.desktop
 application/x-xz-compressed-tar=org.kde.ark.desktop
@@ -18,6 +19,7 @@ x-scheme-handler/https=brave.desktop
 
 [Default Applications]
 application/json=vscodium-wayland.desktop
+application/octet-stream=PureRef.desktop;
 application/pdf=org.kde.okular.desktop
 application/x-7z-compressed=org.kde.ark.desktop
 application/x-xz-compressed-tar=org.kde.ark.desktop

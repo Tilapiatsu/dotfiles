@@ -21,24 +21,24 @@
       "exec": "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Blender/blender %f",
       "icon": "blender",
       "comment": "Modélisation 3D, animation, rendu et post-production",
-      "usageCount": 2,
-      "lastUsed": 1772615065603
+      "usageCount": 3,
+      "lastUsed": 1772627160480
     },
     "teams-for-linux": {
       "name": "Microsoft Teams for Linux",
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 2,
-      "lastUsed": 1772611628983
+      "usageCount": 3,
+      "lastUsed": 1772615830079
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 1,
-      "lastUsed": 1772609604869
+      "usageCount": 2,
+      "lastUsed": 1772622075663
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -79,6 +79,38 @@
       "comment": "Application web",
       "usageCount": 1,
       "lastUsed": 1772614083233
+    },
+    "org.kde.krita": {
+      "name": "Krita",
+      "exec": "krita %F",
+      "icon": "krita",
+      "comment": "Peinture numérique",
+      "usageCount": 2,
+      "lastUsed": 1772630634315
+    },
+    "ark-vcs": {
+      "name": "Ark VCS",
+      "exec": "ark-vcs gui",
+      "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
+      "comment": "",
+      "usageCount": 6,
+      "lastUsed": 1772629126726
+    },
+    "pureref": {
+      "name": "PureRef",
+      "exec": "PureRef %U",
+      "icon": "pureref",
+      "comment": "PureRef - Simple and lightweight reference image viewer.",
+      "usageCount": 2,
+      "lastUsed": 1772640661960
+    },
+    "org.gnome.Nautilus": {
+      "name": "Fichiers",
+      "exec": "nautilus --new-window %U",
+      "icon": "org.gnome.Nautilus",
+      "comment": "Accéder aux fichiers et les organiser",
+      "usageCount": 1,
+      "lastUsed": 1772640493229
     }
   }
 }

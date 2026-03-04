@@ -29,7 +29,7 @@ stow superfile
 stow xdg-open
 
 # NOTE: 5.Install Main packages
-yay -S ark ark-vcs-bin archlinux-xdg-menu 7zip brave-bin btop darktable dolphin discord dkms freerdp gimp gnome-calculator greetd-dms-greeter-git dms-shell-bin evtest heroic-games-launcher-bin kdesvn hwinfo kitty lazygit luarocks onlyoffice-bin krita neovim networkmanager-openvpn networkmanager-vpn-plugin-openconnect mingw-w64-bin networkmanager-vpn-plugin-openvpn obs-studio obsidian okular pacsea-bin pacseek qt6ct rclone signal-desktop snitch-bin steam spotify-launcher sunshine superfile syncthing teams-for-linux-bin tree-sitter-cli ttf-opensans ttf-firacode-nerd uv vlc vscodium webapp-manager wine webkit2gtk xnviewmp yazi
+yay -S ark ark-vcs-bin archlinux-xdg-menu 7zip brave-bin btop clipboard-sync darktable dolphin discord dkms freerdp gimp gnome-calculator greetd-dms-greeter-git dms-shell-bin evtest heroic-games-launcher-bin kdesvn hwinfo kitty lazygit luarocks onlyoffice-bin krita neovim networkmanager-openvpn networkmanager-vpn-plugin-openconnect mingw-w64-bin networkmanager-vpn-plugin-openvpn obs-studio obsidian okular pacsea-bin pacseek qt6ct rclone signal-desktop snitch-bin steam spotify-launcher sunshine superfile syncthing teams-for-linux-bin tree-sitter-cli ttf-opensans ttf-firacode-nerd uv vlc vscodium webapp-manager wine webkit2gtk xnviewmp yazi
 
 # NOTE: 6.Install starship : https://starship.rs/guide/
 curl -sS https://starship.rs/install.sh | sh

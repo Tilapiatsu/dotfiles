@@ -40,6 +40,9 @@ curl -fsSL https://install.danklinux.com | sh
 # NOTE: 8.Install dms-greeter ( Loggin manager ) : https://danklinux.com/docs/dankgreeter/installation
 dms greeter install
 
+# NOTE: 8.Enable services
+systemctl --user enable --now clipboard-sync
+
 #yay -S xf86-input-libinput xf86-input-wacom wacom-utility-git wacomtablet input-wacom-dkms-git
 #yay -S winboat
 # yay -S --needed - <pkglist.txt

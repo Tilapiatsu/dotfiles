@@ -101,8 +101,8 @@
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 2,
-      "lastUsed": 1772640661960
+      "usageCount": 7,
+      "lastUsed": 1772642876159
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",

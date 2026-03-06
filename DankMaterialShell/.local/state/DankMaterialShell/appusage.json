@@ -21,8 +21,8 @@
       "exec": "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Blender/blender %f",
       "icon": "blender",
       "comment": "Modélisation 3D, animation, rendu et post-production",
-      "usageCount": 3,
-      "lastUsed": 1772627160480
+      "usageCount": 4,
+      "lastUsed": 1772743444718
     },
     "teams-for-linux": {
       "name": "Microsoft Teams for Linux",
@@ -37,8 +37,8 @@
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 2,
-      "lastUsed": 1772622075663
+      "usageCount": 3,
+      "lastUsed": 1772780458321
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -77,8 +77,8 @@
       "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
       "comment": "Application web",
-      "usageCount": 1,
-      "lastUsed": 1772614083233
+      "usageCount": 2,
+      "lastUsed": 1772779694201
     },
     "org.kde.krita": {
       "name": "Krita",
@@ -93,16 +93,16 @@
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 6,
-      "lastUsed": 1772629126726
+      "usageCount": 8,
+      "lastUsed": 1772743617032
     },
     "pureref": {
       "name": "PureRef",
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 7,
-      "lastUsed": 1772642876159
+      "usageCount": 8,
+      "lastUsed": 1772780611565
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
@@ -111,6 +111,14 @@
       "comment": "Accéder aux fichiers et les organiser",
       "usageCount": 1,
       "lastUsed": 1772640493229
+    },
+    "WebApp-WhatsApp8941": {
+      "name": "WhatsApp",
+      "exec": "brave --app=\"https://web.whatsapp.com/\" --class=WebApp-WhatsApp8941 --name=WebApp-WhatsApp8941 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/WhatsApp8941",
+      "icon": "/home/tilapiatsu/.local/share/ice/icons/WhatsApp.png",
+      "comment": "Application web",
+      "usageCount": 1,
+      "lastUsed": 1772779571728
     }
   }
 }

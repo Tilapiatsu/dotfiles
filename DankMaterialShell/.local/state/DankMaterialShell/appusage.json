@@ -5,8 +5,8 @@
       "exec": "qt6ct",
       "icon": "preferences-desktop-theme",
       "comment": "Un outil de configuration pour Qt6",
-      "usageCount": 1,
-      "lastUsed": 1772574242867
+      "usageCount": 2,
+      "lastUsed": 1773178720175
     },
     "webapp-manager": {
       "name": "Applications web",
@@ -29,16 +29,16 @@
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 5,
-      "lastUsed": 1772783411236
+      "usageCount": 9,
+      "lastUsed": 1773389157522
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 4,
-      "lastUsed": 1772783419230
+      "usageCount": 8,
+      "lastUsed": 1773608166416
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -69,56 +69,152 @@
       "exec": "/usr/bin/obsidian %U",
       "icon": "obsidian",
       "comment": "Obsidian",
-      "usageCount": 2,
-      "lastUsed": 1772613763620
+      "usageCount": 11,
+      "lastUsed": 1773587443747
     },
     "WebApp-Calendar0171": {
       "name": "Calendar",
       "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
       "comment": "Application web",
-      "usageCount": 3,
-      "lastUsed": 1772782212415
+      "usageCount": 5,
+      "lastUsed": 1773177945569
     },
     "org.kde.krita": {
       "name": "Krita",
       "exec": "krita %F",
       "icon": "krita",
       "comment": "Peinture numérique",
-      "usageCount": 2,
-      "lastUsed": 1772630634315
+      "usageCount": 7,
+      "lastUsed": 1773588266010
     },
     "ark-vcs": {
       "name": "Ark VCS",
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 9,
-      "lastUsed": 1772783426218
+      "usageCount": 21,
+      "lastUsed": 1773514970333
     },
     "pureref": {
       "name": "PureRef",
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 9,
-      "lastUsed": 1772783478994
+      "usageCount": 19,
+      "lastUsed": 1773391792507
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
       "exec": "nautilus --new-window %U",
       "icon": "org.gnome.Nautilus",
       "comment": "Accéder aux fichiers et les organiser",
-      "usageCount": 1,
-      "lastUsed": 1772640493229
+      "usageCount": 2,
+      "lastUsed": 1773178778625
     },
     "WebApp-WhatsApp8941": {
       "name": "WhatsApp",
       "exec": "brave --app=\"https://web.whatsapp.com/\" --class=WebApp-WhatsApp8941 --name=WebApp-WhatsApp8941 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/WhatsApp8941",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/WhatsApp.png",
       "comment": "Application web",
+      "usageCount": 2,
+      "lastUsed": 1773391917362
+    },
+    "WebApp-ChatGPT7825": {
+      "name": "ChatGPT",
+      "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
+      "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
+      "comment": "Application web",
+      "usageCount": 4,
+      "lastUsed": 1773585654247
+    },
+    "WebApp-GMail4730": {
+      "name": "GMail",
+      "exec": "brave --app=\"https://mail.google.com/mail/u/0/\" --class=WebApp-GMail4730 --name=WebApp-GMail4730 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/GMail4730",
+      "icon": "/home/tilapiatsu/.local/share/ice/icons/GMail.png",
+      "comment": "Application web",
+      "usageCount": 4,
+      "lastUsed": 1773176519740
+    },
+    "firefox": {
+      "name": "Firefox",
+      "exec": "/usr/lib/firefox/firefox %u",
+      "icon": "firefox",
+      "comment": "Navigateur rapide et privé",
       "usageCount": 1,
-      "lastUsed": 1772779571728
+      "lastUsed": 1773001102325
+    },
+    "steam": {
+      "name": "Steam",
+      "exec": "/usr/bin/steam %U",
+      "icon": "steam",
+      "comment": "Application de gestion et d'utilisation des jeux sur Steam",
+      "usageCount": 3,
+      "lastUsed": 1773597364470
+    },
+    "qt5ct": {
+      "name": "Paramètres de Qt5",
+      "exec": "qt5ct",
+      "icon": "preferences-desktop-theme",
+      "comment": "Un outil de configuration de Qt5",
+      "usageCount": 1,
+      "lastUsed": 1773178727770
+    },
+    "qv4l2": {
+      "name": "Qt V4L2 test Utility",
+      "exec": "qv4l2",
+      "icon": "qv4l2",
+      "comment": "Allow testing Video4Linux devices",
+      "usageCount": 1,
+      "lastUsed": 1773178767188
+    },
+    "kvantummanager": {
+      "name": "Gestionnaire Kvantum",
+      "exec": "kvantummanager",
+      "icon": "kvantum",
+      "comment": "Une interface graphique simple pour installer, choisir et personnaliser les thèmes Kvantum",
+      "usageCount": 1,
+      "lastUsed": 1773178795369
+    },
+    "cachyos-pi": {
+      "name": "CachyOS Installateur de paquets",
+      "exec": "/usr/bin/cachyos-pi",
+      "icon": "cachyos-pi",
+      "comment": "Installateur simple de progiciels d'application",
+      "usageCount": 1,
+      "lastUsed": 1773178823822
+    },
+    "org.gnome.baobab": {
+      "name": "Analyseur d’utilisation des disques",
+      "exec": "baobab %U",
+      "icon": "org.gnome.baobab",
+      "comment": "Vérifier la taille des dossiers et l’espace disque disponible",
+      "usageCount": 1,
+      "lastUsed": 1773178860361
+    },
+    "lstopo": {
+      "name": "Hardware Locality lstopo",
+      "exec": "lstopo",
+      "icon": "hwloc",
+      "comment": "Show hardware topology",
+      "usageCount": 1,
+      "lastUsed": 1773178879840
+    },
+    "spotify-launcher": {
+      "name": "Spotify (Launcher)",
+      "exec": "spotify-launcher %U",
+      "icon": "spotify-launcher",
+      "comment": "",
+      "usageCount": 2,
+      "lastUsed": 1773422847610
+    },
+    "Distant Shore BRETAGNE Demo": {
+      "name": "Distant Shore: BRETAGNE Demo",
+      "exec": "steam steam://rungameid/4300600",
+      "icon": "steam_icon_4300600",
+      "comment": "Play this game on Steam",
+      "usageCount": 1,
+      "lastUsed": 1773598272465
     }
   }
 }

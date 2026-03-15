@@ -4,14 +4,18 @@ return {
     require("blender").setup({
       profiles = { --                 Profile[]?            list of blender profiles
         --
+        -- {
+        --   name = "blender", --        string                profile name, must be unique
+        --   cmd = "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Blender/blender", --         string|string[]       command to run Blender
+        --   -- env = {}, --             { [string]: string }  environment variables to set when starting Blender
+        --   -- use_launcher = true --   boolean?              whether to run the launcher.py script when starting Blender
+        --   -- extra_args = {} --       string[]?             extra arguments to pass to Blender
+        --   -- enable_dap = nil --      boolean?              whether to enable DAP for this profile (if nil, the global setting is used)
+        --   -- watch = nil --           boolean?              whether to watch the add-on directory for changes (if nil, the global setting is used)
+        -- },
         {
-          name = "blender", --        string                profile name, must be unique
-          cmd = "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Blender/blender", --         string|string[]       command to run Blender
-          -- env = {}, --             { [string]: string }  environment variables to set when starting Blender
-          -- use_launcher = true --   boolean?              whether to run the launcher.py script when starting Blender
-          -- extra_args = {} --       string[]?             extra arguments to pass to Blender
-          -- enable_dap = nil --      boolean?              whether to enable DAP for this profile (if nil, the global setting is used)
-          -- watch = nil --           boolean?              whether to watch the add-on directory for changes (if nil, the global setting is used)
+          name = "Blender-Dev",
+          cmd = "/home/tilapiatsu/PROJECTS/PORTABLE_APPS/Blender/blender",
         },
       },
       dap = { --                      DapConfig?            DAP configuration
@@ -26,7 +30,7 @@ return {
       },
       ui = { --                      UiConfig?             UI configuration
         output_panel = { --          { height: number }    output panel configuration
-          height = 0.25, --          number                height of the output panel. if 0 < height < 1, the height is a percentage of the window height
+          height = 0.5, --          number                height of the output panel. if 0 < height < 1, the height is a percentage of the window height
         },
       },
     })

@@ -17,6 +17,41 @@ return {
       desc = "Eval",
       mode = { "n", "v" },
     },
+    {
+      "<C-A-S-b>",
+      function()
+        require("dap").toggle_breakpoint()
+      end,
+      desc = "Toggle Breakpoint",
+    },
+    {
+      "<C-A-S-CR>",
+      function()
+        require("dap").continue()
+      end,
+      desc = "Run/Continue",
+    },
+    {
+      "<C-A-S-Down>",
+      function()
+        require("dap").step_into()
+      end,
+      desc = "Step Into",
+    },
+    {
+      "<C-A-S-Up>",
+      function()
+        require("dap").step_out()
+      end,
+      desc = "Step Out",
+    },
+    {
+      "<C-A-S-Right>",
+      function()
+        require("dap").step_over()
+      end,
+      desc = "Step Over",
+    },
   },
   opts = {},
   config = function(_, opts)

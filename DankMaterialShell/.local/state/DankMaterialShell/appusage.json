@@ -29,16 +29,16 @@
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 9,
-      "lastUsed": 1773389157522
+      "usageCount": 10,
+      "lastUsed": 1773646480757
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 8,
-      "lastUsed": 1773608166416
+      "usageCount": 9,
+      "lastUsed": 1773646451337
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -93,16 +93,16 @@
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 21,
-      "lastUsed": 1773514970333
+      "usageCount": 27,
+      "lastUsed": 1773789636858
     },
     "pureref": {
       "name": "PureRef",
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 19,
-      "lastUsed": 1773391792507
+      "usageCount": 21,
+      "lastUsed": 1773652661287
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
@@ -205,8 +205,8 @@
       "exec": "spotify-launcher %U",
       "icon": "spotify-launcher",
       "comment": "",
-      "usageCount": 2,
-      "lastUsed": 1773422847610
+      "usageCount": 3,
+      "lastUsed": 1773646825851
     },
     "Distant Shore BRETAGNE Demo": {
       "name": "Distant Shore: BRETAGNE Demo",
@@ -215,6 +215,14 @@
       "comment": "Play this game on Steam",
       "usageCount": 1,
       "lastUsed": 1773598272465
+    },
+    "vscodium-wayland": {
+      "name": "VSCodium - Wayland",
+      "exec": "/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland %F",
+      "icon": "vscodium",
+      "comment": "Code Editing. Redefined.",
+      "usageCount": 1,
+      "lastUsed": 1773786011990
     }
   }
 }

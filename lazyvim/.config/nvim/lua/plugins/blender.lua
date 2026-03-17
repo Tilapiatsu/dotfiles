@@ -14,6 +14,10 @@ return {
         --   -- watch = nil --           boolean?              whether to watch the add-on directory for changes (if nil, the global setting is used)
         -- },
         {
+          name = "Blender",
+          cmd = "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Blender/blender",
+        },
+        {
           name = "Blender-Dev",
           cmd = "/home/tilapiatsu/PROJECTS/PORTABLE_APPS/Blender/blender",
         },

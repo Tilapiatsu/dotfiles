@@ -29,16 +29,16 @@
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 15,
-      "lastUsed": 1774001533579
+      "usageCount": 18,
+      "lastUsed": 1774285806714
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 10,
-      "lastUsed": 1773991811503
+      "usageCount": 12,
+      "lastUsed": 1774397941420
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -69,8 +69,8 @@
       "exec": "/usr/bin/obsidian %U",
       "icon": "obsidian",
       "comment": "Obsidian",
-      "usageCount": 12,
-      "lastUsed": 1774114869794
+      "usageCount": 15,
+      "lastUsed": 1774384712676
     },
     "WebApp-Calendar0171": {
       "name": "Calendar",
@@ -85,24 +85,24 @@
       "exec": "krita %F",
       "icon": "krita",
       "comment": "Peinture numérique",
-      "usageCount": 8,
-      "lastUsed": 1773992229181
+      "usageCount": 9,
+      "lastUsed": 1774127633724
     },
     "ark-vcs": {
       "name": "Ark VCS",
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 35,
-      "lastUsed": 1774028128135
+      "usageCount": 39,
+      "lastUsed": 1774396224527
     },
     "pureref": {
       "name": "PureRef",
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 24,
-      "lastUsed": 1774028141903
+      "usageCount": 28,
+      "lastUsed": 1774268687628
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
@@ -141,16 +141,16 @@
       "exec": "/usr/lib/firefox/firefox %u",
       "icon": "firefox",
       "comment": "Navigateur rapide et privé",
-      "usageCount": 1,
-      "lastUsed": 1773001102325
+      "usageCount": 2,
+      "lastUsed": 1774393061967
     },
     "steam": {
       "name": "Steam",
       "exec": "/usr/bin/steam %U",
       "icon": "steam",
       "comment": "Application de gestion et d'utilisation des jeux sur Steam",
-      "usageCount": 4,
-      "lastUsed": 1773870911228
+      "usageCount": 6,
+      "lastUsed": 1774263356327
     },
     "qt5ct": {
       "name": "Paramètres de Qt5",
@@ -205,8 +205,8 @@
       "exec": "spotify-launcher %U",
       "icon": "spotify-launcher",
       "comment": "",
-      "usageCount": 5,
-      "lastUsed": 1774009441487
+      "usageCount": 6,
+      "lastUsed": 1774335778006
     },
     "Distant Shore BRETAGNE Demo": {
       "name": "Distant Shore: BRETAGNE Demo",
@@ -229,8 +229,16 @@
       "exec": "brave --app=\"https://outlook.live.com/mail/?deeplink=mail%2F\" --class=WebApp-Outlook3644 --name=WebApp-Outlook3644 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Outlook3644",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/Microsoft_Outlook_Icon_(2025–present).svg.png",
       "comment": "Application web",
-      "usageCount": 2,
-      "lastUsed": 1774011751122
+      "usageCount": 3,
+      "lastUsed": 1774421552745
+    },
+    "org.kde.ark": {
+      "name": "Ark",
+      "exec": "ark %U",
+      "icon": "ark",
+      "comment": "Travailler avec des archives de fichiers",
+      "usageCount": 1,
+      "lastUsed": 1774398005318
     }
   }
 }

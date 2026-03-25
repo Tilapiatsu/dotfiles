@@ -8,6 +8,7 @@ return {
         "shellcheck",
         "shfmt",
         "ruff",
+        -- "mpls",
       },
     },
   },

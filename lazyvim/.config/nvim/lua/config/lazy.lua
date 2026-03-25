@@ -53,3 +53,4 @@ require("lazy").setup({
 })
 require("nvim-dap-repl-highlights").setup()
 require("nvim-treesitter").install({ "dap_repl" })
+-- vim.lsp.enable({ "mpls" })

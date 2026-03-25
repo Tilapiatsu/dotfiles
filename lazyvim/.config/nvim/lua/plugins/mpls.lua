@@ -3,18 +3,17 @@ if true then
 end
 
 ---@type vim.lsp.Config
-
 return {
   "mhersson/mpls",
-  lazy = false,
-  cmd = {
-    "mpls",
-    "--no-auto",
-    "--theme",
-    "dark",
-    "--enable-emoji",
-    -- "--enable-footnotes",
-  },
+  -- lazy = false,
+  -- cmd = {
+  --   "mpls",
+  --   "--no-auto",
+  --   "--theme",
+  --   "dark",
+  --   "--enable-emoji",
+  --   "--enable-footnotes",
+  -- },
   root_markers = { ".marksman.toml", ".git" },
   filetypes = { "markdown" },
   on_attach = function(client, bufnr)

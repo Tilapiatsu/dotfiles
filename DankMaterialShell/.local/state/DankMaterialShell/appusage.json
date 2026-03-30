@@ -5,8 +5,8 @@
       "exec": "qt6ct",
       "icon": "preferences-desktop-theme",
       "comment": "Un outil de configuration pour Qt6",
-      "usageCount": 2,
-      "lastUsed": 1773178720175
+      "usageCount": 3,
+      "lastUsed": 1774851918173
     },
     "webapp-manager": {
       "name": "Applications web",
@@ -29,16 +29,16 @@
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 18,
-      "lastUsed": 1774285806714
+      "usageCount": 20,
+      "lastUsed": 1774853342335
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 12,
-      "lastUsed": 1774397941420
+      "usageCount": 14,
+      "lastUsed": 1774861936603
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -69,16 +69,16 @@
       "exec": "/usr/bin/obsidian %U",
       "icon": "obsidian",
       "comment": "Obsidian",
-      "usageCount": 15,
-      "lastUsed": 1774384712676
+      "usageCount": 16,
+      "lastUsed": 1774856184653
     },
     "WebApp-Calendar0171": {
       "name": "Calendar",
       "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
       "comment": "Application web",
-      "usageCount": 5,
-      "lastUsed": 1773177945569
+      "usageCount": 6,
+      "lastUsed": 1774854341674
     },
     "org.kde.krita": {
       "name": "Krita",
@@ -93,32 +93,32 @@
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 39,
-      "lastUsed": 1774396224527
+      "usageCount": 46,
+      "lastUsed": 1774887160157
     },
     "pureref": {
       "name": "PureRef",
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 28,
-      "lastUsed": 1774268687628
+      "usageCount": 39,
+      "lastUsed": 1774856802393
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
       "exec": "nautilus --new-window %U",
       "icon": "org.gnome.Nautilus",
       "comment": "Accéder aux fichiers et les organiser",
-      "usageCount": 2,
-      "lastUsed": 1773178778625
+      "usageCount": 5,
+      "lastUsed": 1774852429800
     },
     "WebApp-WhatsApp8941": {
       "name": "WhatsApp",
       "exec": "brave --app=\"https://web.whatsapp.com/\" --class=WebApp-WhatsApp8941 --name=WebApp-WhatsApp8941 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/WhatsApp8941",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/WhatsApp.png",
       "comment": "Application web",
-      "usageCount": 2,
-      "lastUsed": 1773391917362
+      "usageCount": 4,
+      "lastUsed": 1774881741670
     },
     "WebApp-ChatGPT7825": {
       "name": "ChatGPT",
@@ -133,32 +133,32 @@
       "exec": "brave --app=\"https://mail.google.com/mail/u/0/\" --class=WebApp-GMail4730 --name=WebApp-GMail4730 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/GMail4730",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/GMail.png",
       "comment": "Application web",
-      "usageCount": 5,
-      "lastUsed": 1774008453609
+      "usageCount": 7,
+      "lastUsed": 1774851850788
     },
     "firefox": {
       "name": "Firefox",
       "exec": "/usr/lib/firefox/firefox %u",
       "icon": "firefox",
       "comment": "Navigateur rapide et privé",
-      "usageCount": 2,
-      "lastUsed": 1774393061967
+      "usageCount": 3,
+      "lastUsed": 1774855593295
     },
     "steam": {
       "name": "Steam",
       "exec": "/usr/bin/steam %U",
       "icon": "steam",
       "comment": "Application de gestion et d'utilisation des jeux sur Steam",
-      "usageCount": 6,
-      "lastUsed": 1774263356327
+      "usageCount": 9,
+      "lastUsed": 1774795726793
     },
     "qt5ct": {
       "name": "Paramètres de Qt5",
       "exec": "qt5ct",
       "icon": "preferences-desktop-theme",
       "comment": "Un outil de configuration de Qt5",
-      "usageCount": 1,
-      "lastUsed": 1773178727770
+      "usageCount": 2,
+      "lastUsed": 1774851911901
     },
     "qv4l2": {
       "name": "Qt V4L2 test Utility",
@@ -205,8 +205,8 @@
       "exec": "spotify-launcher %U",
       "icon": "spotify-launcher",
       "comment": "",
-      "usageCount": 6,
-      "lastUsed": 1774335778006
+      "usageCount": 8,
+      "lastUsed": 1774879526268
     },
     "Distant Shore BRETAGNE Demo": {
       "name": "Distant Shore: BRETAGNE Demo",
@@ -229,8 +229,8 @@
       "exec": "brave --app=\"https://outlook.live.com/mail/?deeplink=mail%2F\" --class=WebApp-Outlook3644 --name=WebApp-Outlook3644 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Outlook3644",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/Microsoft_Outlook_Icon_(2025–present).svg.png",
       "comment": "Application web",
-      "usageCount": 3,
-      "lastUsed": 1774421552745
+      "usageCount": 4,
+      "lastUsed": 1774795512367
     },
     "org.kde.ark": {
       "name": "Ark",
@@ -239,6 +239,22 @@
       "comment": "Travailler avec des archives de fichiers",
       "usageCount": 1,
       "lastUsed": 1774398005318
+    },
+    "heroic": {
+      "name": "Heroic Games Launcher",
+      "exec": "/opt/Heroic/heroic %U",
+      "icon": "heroic",
+      "comment": "Un lanceur de jeux open source pour GOG, Epic Games et Amazon Games",
+      "usageCount": 2,
+      "lastUsed": 1774868704434
+    },
+    "qvidcap": {
+      "name": "Qt V4L2 video capture utility",
+      "exec": "qvidcap",
+      "icon": "qvidcap",
+      "comment": "Viewer for video capture",
+      "usageCount": 1,
+      "lastUsed": 1774852005362
     }
   }
 }

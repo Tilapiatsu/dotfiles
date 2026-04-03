@@ -93,6 +93,7 @@ window-rule {
     match app-id="vlc"
     match app-id="PureRef"
     match app-id="pureref.exe"
+    match app-id="steam_proton"
     opacity 1.0
 }
 window-rule {

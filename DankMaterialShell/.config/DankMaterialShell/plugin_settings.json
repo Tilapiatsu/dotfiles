@@ -6,8 +6,8 @@
   "commandRunner": {
     "enabled": true,
     "history": [
-      "pureref",
       "sh TILAPIATSU/UBISOFT/RDP/connect_xfreerdp.sh",
+      "pureref",
       "wine /home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Pureref/PureRef.exe",
       "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Pureref/PureRef.exe",
       "blender",

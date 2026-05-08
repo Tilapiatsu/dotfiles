@@ -13,8 +13,8 @@
       "exec": "webapp-manager",
       "icon": "webapp-manager",
       "comment": "Lancer les sites Web comme des applications",
-      "usageCount": 3,
-      "lastUsed": 1772611694342
+      "usageCount": 4,
+      "lastUsed": 1777279775314
     },
     "blender": {
       "name": "Blender",
@@ -29,16 +29,16 @@
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 23,
-      "lastUsed": 1775198089087
+      "usageCount": 36,
+      "lastUsed": 1778046896491
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 18,
-      "lastUsed": 1775196995974
+      "usageCount": 35,
+      "lastUsed": 1778249655121
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -53,8 +53,8 @@
       "exec": "/opt/cisco/secureclient/bin/vpnui",
       "icon": "cisco-secure-client",
       "comment": "Connect to a private network using the Cisco Secure Client",
-      "usageCount": 8,
-      "lastUsed": 1775113054665
+      "usageCount": 17,
+      "lastUsed": 1778070724880
     },
     "WebApp-Callendar0171": {
       "name": "Callendar",
@@ -69,16 +69,16 @@
       "exec": "/usr/bin/obsidian %U",
       "icon": "obsidian",
       "comment": "Obsidian",
-      "usageCount": 17,
-      "lastUsed": 1775024454502
+      "usageCount": 29,
+      "lastUsed": 1778232080048
     },
     "WebApp-Calendar0171": {
       "name": "Calendar",
       "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
       "comment": "Application web",
-      "usageCount": 6,
-      "lastUsed": 1774854341674
+      "usageCount": 12,
+      "lastUsed": 1777895203619
     },
     "org.kde.krita": {
       "name": "Krita",
@@ -93,48 +93,48 @@
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 53,
-      "lastUsed": 1775147410145
+      "usageCount": 94,
+      "lastUsed": 1778251050146
     },
     "pureref": {
       "name": "PureRef",
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 41,
-      "lastUsed": 1775200079314
+      "usageCount": 69,
+      "lastUsed": 1778244620493
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
       "exec": "nautilus --new-window %U",
       "icon": "org.gnome.Nautilus",
       "comment": "Accéder aux fichiers et les organiser",
-      "usageCount": 5,
-      "lastUsed": 1774852429800
+      "usageCount": 6,
+      "lastUsed": 1775939611218
     },
     "WebApp-WhatsApp8941": {
       "name": "WhatsApp",
       "exec": "brave --app=\"https://web.whatsapp.com/\" --class=WebApp-WhatsApp8941 --name=WebApp-WhatsApp8941 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/WhatsApp8941",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/WhatsApp.png",
       "comment": "Application web",
-      "usageCount": 4,
-      "lastUsed": 1774881741670
+      "usageCount": 5,
+      "lastUsed": 1776629316164
     },
     "WebApp-ChatGPT7825": {
       "name": "ChatGPT",
       "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
       "comment": "Application web",
-      "usageCount": 5,
-      "lastUsed": 1775241339091
+      "usageCount": 14,
+      "lastUsed": 1778077155782
     },
     "WebApp-GMail4730": {
       "name": "GMail",
       "exec": "brave --app=\"https://mail.google.com/mail/u/0/\" --class=WebApp-GMail4730 --name=WebApp-GMail4730 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/GMail4730",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/GMail.png",
       "comment": "Application web",
-      "usageCount": 9,
-      "lastUsed": 1775216465885
+      "usageCount": 17,
+      "lastUsed": 1778231381361
     },
     "firefox": {
       "name": "Firefox",
@@ -149,8 +149,8 @@
       "exec": "/usr/bin/steam %U",
       "icon": "steam",
       "comment": "Application de gestion et d'utilisation des jeux sur Steam",
-      "usageCount": 9,
-      "lastUsed": 1774795726793
+      "usageCount": 16,
+      "lastUsed": 1778257935591
     },
     "qt5ct": {
       "name": "Paramètres de Qt5",
@@ -205,8 +205,8 @@
       "exec": "spotify-launcher %U",
       "icon": "spotify-launcher",
       "comment": "",
-      "usageCount": 8,
-      "lastUsed": 1774879526268
+      "usageCount": 12,
+      "lastUsed": 1777913332319
     },
     "Distant Shore BRETAGNE Demo": {
       "name": "Distant Shore: BRETAGNE Demo",
@@ -221,32 +221,32 @@
       "exec": "/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland %F",
       "icon": "vscodium",
       "comment": "Code Editing. Redefined.",
-      "usageCount": 1,
-      "lastUsed": 1773786011990
+      "usageCount": 3,
+      "lastUsed": 1778080131075
     },
     "WebApp-Outlook3644": {
       "name": "Outlook",
       "exec": "brave --app=\"https://outlook.live.com/mail/?deeplink=mail%2F\" --class=WebApp-Outlook3644 --name=WebApp-Outlook3644 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Outlook3644",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/Microsoft_Outlook_Icon_(2025–present).svg.png",
       "comment": "Application web",
-      "usageCount": 4,
-      "lastUsed": 1774795512367
+      "usageCount": 10,
+      "lastUsed": 1778171095033
     },
     "org.kde.ark": {
       "name": "Ark",
       "exec": "ark %U",
       "icon": "ark",
       "comment": "Travailler avec des archives de fichiers",
-      "usageCount": 1,
-      "lastUsed": 1774398005318
+      "usageCount": 3,
+      "lastUsed": 1776470978856
     },
     "heroic": {
       "name": "Heroic Games Launcher",
       "exec": "/opt/Heroic/heroic %U",
       "icon": "heroic",
       "comment": "Un lanceur de jeux open source pour GOG, Epic Games et Amazon Games",
-      "usageCount": 2,
-      "lastUsed": 1774868704434
+      "usageCount": 4,
+      "lastUsed": 1776617325251
     },
     "qvidcap": {
       "name": "Qt V4L2 video capture utility",
@@ -255,6 +255,46 @@
       "comment": "Viewer for video capture",
       "usageCount": 1,
       "lastUsed": 1774852005362
+    },
+    "cachyos-hello": {
+      "name": "CachyOS Hello",
+      "exec": "/usr/bin/cachyos-hello",
+      "icon": "org.cachyos.hello",
+      "comment": "Outil d'accès à la documentation et au support des nouveaux utilisateurs de CachyOS.",
+      "usageCount": 1,
+      "lastUsed": 1775927414971
+    },
+    "org.kde.partitionmanager": {
+      "name": "Gestionnaire de partitions de KDE",
+      "exec": "partitionmanager",
+      "icon": "partitionmanager",
+      "comment": "Gérer les disques, les partitions et les systèmes de fichiers",
+      "usageCount": 1,
+      "lastUsed": 1775927632955
+    },
+    "zen": {
+      "name": "Zen Browser",
+      "exec": "/opt/zen-browser-bin/zen-bin %u",
+      "icon": "zen-browser",
+      "comment": "Experience tranquillity while browsing the web without people tracking you!",
+      "usageCount": 7,
+      "lastUsed": 1775938652199
+    },
+    "WebApp-Miro0753": {
+      "name": "Miro",
+      "exec": "brave --app=\"https://miro.com/app/dashboard/\" --class=WebApp-Miro0753 --name=WebApp-Miro0753 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Miro0753",
+      "icon": "/home/tilapiatsu/.local/share/ice/icons/Miro.png",
+      "comment": "Application web",
+      "usageCount": 1,
+      "lastUsed": 1777279801203
+    },
+    "onlyoffice-desktopeditors": {
+      "name": "ONLYOFFICE",
+      "exec": "/usr/bin/onlyoffice-desktopeditors %F",
+      "icon": "onlyoffice-desktopeditors",
+      "comment": "Edit office documents",
+      "usageCount": 1,
+      "lastUsed": 1778230515094
     }
   }
 }

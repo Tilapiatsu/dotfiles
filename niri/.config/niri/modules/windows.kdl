@@ -104,7 +104,7 @@ window-rule {
     draw-border-with-background false
 }
 window-rule {
-    // match app-id="brave"
+    match app-id="brave"
     match app-id="blender"
     match app-id="krita"
     match app-id="teams"

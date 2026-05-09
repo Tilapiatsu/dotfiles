@@ -85,24 +85,24 @@
       "exec": "krita %F",
       "icon": "krita",
       "comment": "Peinture numérique",
-      "usageCount": 9,
-      "lastUsed": 1774127633724
+      "usageCount": 11,
+      "lastUsed": 1778274911432
     },
     "ark-vcs": {
       "name": "Ark VCS",
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 94,
-      "lastUsed": 1778251050146
+      "usageCount": 95,
+      "lastUsed": 1778284600132
     },
     "pureref": {
       "name": "PureRef",
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 69,
-      "lastUsed": 1778244620493
+      "usageCount": 73,
+      "lastUsed": 1778323256411
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
@@ -125,8 +125,8 @@
       "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
       "comment": "Application web",
-      "usageCount": 14,
-      "lastUsed": 1778077155782
+      "usageCount": 15,
+      "lastUsed": 1778275572799
     },
     "WebApp-GMail4730": {
       "name": "GMail",

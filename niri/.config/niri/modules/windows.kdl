@@ -28,6 +28,28 @@ recent-windows {
     }
 }
 
+blur {
+  passes 4
+  offset 5.0
+  saturation 1.8
+  noise 0.03
+}
+
+window-rule {
+   // match is-active=false
+    opacity 0.75
+    background-effect {
+      blur true
+    }
+}
+// Enable blur behind the fuzzel launcher.
+layer-rule {
+    match namespace="^launcher$"
+
+    background-effect {
+        blur true
+    }
+}
 window-rule {
     // This regular expression is intentionally made as specific as possible,
     // since this is the default config, and we want no false positives.
@@ -82,11 +104,7 @@ window-rule {
     draw-border-with-background false
 }
 window-rule {
-    match is-active=false
-    opacity 0.95
-}
-window-rule {
-    match app-id="brave"
+    // match app-id="brave"
     match app-id="blender"
     match app-id="krita"
     match app-id="teams"

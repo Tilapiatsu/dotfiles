@@ -21,8 +21,8 @@
       "exec": "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Blender/blender %f",
       "icon": "blender",
       "comment": "Modélisation 3D, animation, rendu et post-production",
-      "usageCount": 4,
-      "lastUsed": 1772743444718
+      "usageCount": 5,
+      "lastUsed": 1778486048844
     },
     "teams-for-linux": {
       "name": "Microsoft Teams for Linux",
@@ -69,8 +69,8 @@
       "exec": "/usr/bin/obsidian %U",
       "icon": "obsidian",
       "comment": "Obsidian",
-      "usageCount": 29,
-      "lastUsed": 1778232080048
+      "usageCount": 30,
+      "lastUsed": 1778483244064
     },
     "WebApp-Calendar0171": {
       "name": "Calendar",
@@ -125,8 +125,8 @@
       "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
       "comment": "Application web",
-      "usageCount": 16,
-      "lastUsed": 1778443211951
+      "usageCount": 17,
+      "lastUsed": 1778481420744
     },
     "WebApp-GMail4730": {
       "name": "GMail",

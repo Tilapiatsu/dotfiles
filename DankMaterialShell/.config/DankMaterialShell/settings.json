@@ -610,7 +610,7 @@
       "enabled": true,
       "config": {
         "style": "digital",
-        "transparency": 0.84,
+        "transparency": 0.89,
         "colorMode": "primary",
         "customColor": "#ffffff",
         "showDate": true,

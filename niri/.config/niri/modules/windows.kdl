@@ -46,11 +46,18 @@ window-rule {
 layer-rule {
     match namespace="^launcher$"
     match namespace=r#"^dms:.*"#
-    
     geometry-corner-radius 12
     opacity 0.75
     background-effect {
       xray false 
+    }
+}
+layer-rule {
+    match namespace=r#"^dms:desktop-widget:.*"#
+    geometry-corner-radius 12
+    opacity 0.75
+    background-effect {
+      blur true
     }
 }
 window-rule {

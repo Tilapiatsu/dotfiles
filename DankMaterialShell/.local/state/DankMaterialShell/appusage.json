@@ -37,8 +37,8 @@
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 35,
-      "lastUsed": 1778249655121
+      "usageCount": 39,
+      "lastUsed": 1778408781767
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -53,8 +53,8 @@
       "exec": "/opt/cisco/secureclient/bin/vpnui",
       "icon": "cisco-secure-client",
       "comment": "Connect to a private network using the Cisco Secure Client",
-      "usageCount": 17,
-      "lastUsed": 1778070724880
+      "usageCount": 18,
+      "lastUsed": 1778478339991
     },
     "WebApp-Callendar0171": {
       "name": "Callendar",
@@ -93,16 +93,16 @@
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 95,
-      "lastUsed": 1778284600132
+      "usageCount": 96,
+      "lastUsed": 1778346911832
     },
     "pureref": {
       "name": "PureRef",
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 73,
-      "lastUsed": 1778323256411
+      "usageCount": 74,
+      "lastUsed": 1778403382328
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
@@ -125,8 +125,8 @@
       "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
       "comment": "Application web",
-      "usageCount": 15,
-      "lastUsed": 1778275572799
+      "usageCount": 16,
+      "lastUsed": 1778443211951
     },
     "WebApp-GMail4730": {
       "name": "GMail",
@@ -149,8 +149,8 @@
       "exec": "/usr/bin/steam %U",
       "icon": "steam",
       "comment": "Application de gestion et d'utilisation des jeux sur Steam",
-      "usageCount": 16,
-      "lastUsed": 1778257935591
+      "usageCount": 17,
+      "lastUsed": 1778427759792
     },
     "qt5ct": {
       "name": "Paramètres de Qt5",
@@ -229,8 +229,8 @@
       "exec": "brave --app=\"https://outlook.live.com/mail/?deeplink=mail%2F\" --class=WebApp-Outlook3644 --name=WebApp-Outlook3644 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Outlook3644",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/Microsoft_Outlook_Icon_(2025–present).svg.png",
       "comment": "Application web",
-      "usageCount": 10,
-      "lastUsed": 1778171095033
+      "usageCount": 12,
+      "lastUsed": 1778339932915
     },
     "org.kde.ark": {
       "name": "Ark",

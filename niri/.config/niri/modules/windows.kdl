@@ -45,9 +45,12 @@ window-rule {
 // Enable blur behind the fuzzel launcher.
 layer-rule {
     match namespace="^launcher$"
-
+    match namespace=r#"^dms:.*"#
+    
+    geometry-corner-radius 12
+    opacity 0.75
     background-effect {
-        blur true
+      xray false 
     }
 }
 window-rule {

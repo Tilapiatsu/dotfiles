@@ -29,16 +29,16 @@
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 36,
-      "lastUsed": 1778046896491
+      "usageCount": 37,
+      "lastUsed": 1778566609742
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 39,
-      "lastUsed": 1778408781767
+      "usageCount": 40,
+      "lastUsed": 1778580876852
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -101,8 +101,8 @@
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 74,
-      "lastUsed": 1778403382328
+      "usageCount": 75,
+      "lastUsed": 1778501955863
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
@@ -125,16 +125,16 @@
       "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
       "comment": "Application web",
-      "usageCount": 17,
-      "lastUsed": 1778481420744
+      "usageCount": 18,
+      "lastUsed": 1778566686442
     },
     "WebApp-GMail4730": {
       "name": "GMail",
       "exec": "brave --app=\"https://mail.google.com/mail/u/0/\" --class=WebApp-GMail4730 --name=WebApp-GMail4730 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/GMail4730",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/GMail.png",
       "comment": "Application web",
-      "usageCount": 17,
-      "lastUsed": 1778231381361
+      "usageCount": 18,
+      "lastUsed": 1778492934185
     },
     "firefox": {
       "name": "Firefox",
@@ -205,8 +205,8 @@
       "exec": "spotify-launcher %U",
       "icon": "spotify-launcher",
       "comment": "",
-      "usageCount": 12,
-      "lastUsed": 1777913332319
+      "usageCount": 13,
+      "lastUsed": 1778501212248
     },
     "Distant Shore BRETAGNE Demo": {
       "name": "Distant Shore: BRETAGNE Demo",
@@ -229,8 +229,8 @@
       "exec": "brave --app=\"https://outlook.live.com/mail/?deeplink=mail%2F\" --class=WebApp-Outlook3644 --name=WebApp-Outlook3644 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Outlook3644",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/Microsoft_Outlook_Icon_(2025–present).svg.png",
       "comment": "Application web",
-      "usageCount": 12,
-      "lastUsed": 1778339932915
+      "usageCount": 13,
+      "lastUsed": 1778491476565
     },
     "org.kde.ark": {
       "name": "Ark",
@@ -295,6 +295,14 @@
       "comment": "Edit office documents",
       "usageCount": 1,
       "lastUsed": 1778230515094
+    },
+    "vlc": {
+      "name": "Lecteur multimédia VLC",
+      "exec": "/usr/bin/vlc --started-from-file %U",
+      "icon": "vlc",
+      "comment": "Lit, capture, diffuse vos flux multimédias",
+      "usageCount": 1,
+      "lastUsed": 1778488593180
     }
   }
 }

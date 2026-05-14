@@ -29,16 +29,16 @@
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 37,
-      "lastUsed": 1778566609742
+      "usageCount": 38,
+      "lastUsed": 1778650950142
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 40,
-      "lastUsed": 1778580876852
+      "usageCount": 41,
+      "lastUsed": 1778676238350
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -77,8 +77,8 @@
       "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
       "comment": "Application web",
-      "usageCount": 12,
-      "lastUsed": 1777895203619
+      "usageCount": 13,
+      "lastUsed": 1778599512729
     },
     "org.kde.krita": {
       "name": "Krita",
@@ -101,8 +101,8 @@
       "exec": "PureRef %U",
       "icon": "pureref",
       "comment": "PureRef - Simple and lightweight reference image viewer.",
-      "usageCount": 75,
-      "lastUsed": 1778501955863
+      "usageCount": 76,
+      "lastUsed": 1778651032853
     },
     "org.gnome.Nautilus": {
       "name": "Fichiers",
@@ -125,8 +125,8 @@
       "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
       "comment": "Application web",
-      "usageCount": 18,
-      "lastUsed": 1778566686442
+      "usageCount": 20,
+      "lastUsed": 1778703495028
     },
     "WebApp-GMail4730": {
       "name": "GMail",

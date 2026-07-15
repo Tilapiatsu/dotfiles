@@ -7,8 +7,9 @@
     "enabled": true,
     "history": [
       "sh TILAPIATSU/UBISOFT/RDP/connect_xfreerdp.sh",
-      "kwallet",
+      "spotlight-bar",
       "pureref",
+      "kwallet",
       "wine /home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Pureref/PureRef.exe",
       "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Pureref/PureRef.exe",
       "blender",

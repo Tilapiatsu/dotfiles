@@ -16,6 +16,7 @@ text/csv=onlyoffice-desktopeditors.desktop;
 text/html=brave-browser.desktop
 text/markdown=vscodium-wayland.desktop
 text/plain=vscodium-wayland.desktop
+text/x-python=vscodium-wayland.desktop;
 x-scheme-handler/http=brave.desktop
 x-scheme-handler/https=brave.desktop
 
@@ -37,6 +38,7 @@ text/csv=onlyoffice-desktopeditors.desktop;
 text/html=brave-browser.desktop
 text/markdown=vscodium-wayland.desktop
 text/plain=vscodium-wayland.desktop
+text/x-python=vscodium-wayland.desktop;
 x-scheme-handler/http=brave-browser.desktop
 x-scheme-handler/https=brave-browser.desktop
 x-scheme-handler/rclone=rclone-ui-handler.desktop

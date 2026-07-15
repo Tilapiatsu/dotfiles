@@ -21,24 +21,24 @@
       "exec": "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Blender/blender %f",
       "icon": "blender",
       "comment": "Modélisation 3D, animation, rendu et post-production",
-      "usageCount": 5,
-      "lastUsed": 1778486048844
+      "usageCount": 6,
+      "lastUsed": 1783071010657
     },
     "teams-for-linux": {
       "name": "Microsoft Teams for Linux",
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 46,
-      "lastUsed": 1780643952870
+      "usageCount": 80,
+      "lastUsed": 1784114401078
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 45,
-      "lastUsed": 1780298114174
+      "usageCount": 56,
+      "lastUsed": 1784103226626
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -53,8 +53,8 @@
       "exec": "/opt/cisco/secureclient/bin/vpnui",
       "icon": "cisco-secure-client",
       "comment": "Connect to a private network using the Cisco Secure Client",
-      "usageCount": 26,
-      "lastUsed": 1780644027357
+      "usageCount": 47,
+      "lastUsed": 1784114716903
     },
     "WebApp-Callendar0171": {
       "name": "Callendar",
@@ -69,32 +69,32 @@
       "exec": "/usr/bin/obsidian %U",
       "icon": "obsidian",
       "comment": "Obsidian",
-      "usageCount": 36,
-      "lastUsed": 1779178122367
+      "usageCount": 47,
+      "lastUsed": 1784096813884
     },
     "WebApp-Calendar0171": {
       "name": "Calendar",
       "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
       "comment": "Application web",
-      "usageCount": 19,
-      "lastUsed": 1780304782214
+      "usageCount": 29,
+      "lastUsed": 1783322535191
     },
     "org.kde.krita": {
       "name": "Krita",
       "exec": "krita %F",
       "icon": "krita",
       "comment": "Peinture numérique",
-      "usageCount": 15,
-      "lastUsed": 1780330421149
+      "usageCount": 28,
+      "lastUsed": 1783587807254
     },
     "ark-vcs": {
       "name": "Ark VCS",
       "exec": "ark-vcs gui",
       "icon": "/usr/share/icons/hicolor/256x256/apps/ark-vcs-bin.png",
       "comment": "",
-      "usageCount": 96,
-      "lastUsed": 1778346911832
+      "usageCount": 97,
+      "lastUsed": 1780953492857
     },
     "pureref": {
       "name": "PureRef",
@@ -125,32 +125,32 @@
       "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
       "comment": "Application web",
-      "usageCount": 52,
-      "lastUsed": 1780641726572
+      "usageCount": 79,
+      "lastUsed": 1784096800025
     },
     "WebApp-GMail4730": {
       "name": "GMail",
       "exec": "brave --app=\"https://mail.google.com/mail/u/0/\" --class=WebApp-GMail4730 --name=WebApp-GMail4730 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/GMail4730",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/GMail.png",
       "comment": "Application web",
-      "usageCount": 31,
-      "lastUsed": 1780314964034
+      "usageCount": 43,
+      "lastUsed": 1784036679517
     },
     "firefox": {
       "name": "Firefox",
       "exec": "/usr/lib/firefox/firefox %u",
       "icon": "firefox",
       "comment": "Navigateur rapide et privé",
-      "usageCount": 4,
-      "lastUsed": 1779453329358
+      "usageCount": 5,
+      "lastUsed": 1781552694901
     },
     "steam": {
       "name": "Steam",
       "exec": "/usr/bin/steam %U",
       "icon": "steam",
       "comment": "Application de gestion et d'utilisation des jeux sur Steam",
-      "usageCount": 24,
-      "lastUsed": 1780301104741
+      "usageCount": 33,
+      "lastUsed": 1784045232798
     },
     "qt5ct": {
       "name": "Paramètres de Qt5",
@@ -205,8 +205,8 @@
       "exec": "spotify-launcher %U",
       "icon": "spotify-launcher",
       "comment": "",
-      "usageCount": 14,
-      "lastUsed": 1780640514741
+      "usageCount": 22,
+      "lastUsed": 1784096272253
     },
     "Distant Shore BRETAGNE Demo": {
       "name": "Distant Shore: BRETAGNE Demo",
@@ -221,16 +221,16 @@
       "exec": "/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland %F",
       "icon": "vscodium",
       "comment": "Code Editing. Redefined.",
-      "usageCount": 4,
-      "lastUsed": 1779103596085
+      "usageCount": 6,
+      "lastUsed": 1782281531762
     },
     "WebApp-Outlook3644": {
       "name": "Outlook",
       "exec": "brave --app=\"https://outlook.live.com/mail/?deeplink=mail%2F\" --class=WebApp-Outlook3644 --name=WebApp-Outlook3644 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Outlook3644",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/Microsoft_Outlook_Icon_(2025–present).svg.png",
       "comment": "Application web",
-      "usageCount": 21,
-      "lastUsed": 1780304553838
+      "usageCount": 33,
+      "lastUsed": 1783353258425
     },
     "org.kde.ark": {
       "name": "Ark",
@@ -245,8 +245,8 @@
       "exec": "/opt/Heroic/heroic %U",
       "icon": "heroic",
       "comment": "Un lanceur de jeux open source pour GOG, Epic Games et Amazon Games",
-      "usageCount": 7,
-      "lastUsed": 1779554734790
+      "usageCount": 9,
+      "lastUsed": 1783079168491
     },
     "qvidcap": {
       "name": "Qt V4L2 video capture utility",
@@ -285,8 +285,8 @@
       "exec": "brave --app=\"https://miro.com/app/dashboard/\" --class=WebApp-Miro0753 --name=WebApp-Miro0753 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Miro0753",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/Miro.png",
       "comment": "Application web",
-      "usageCount": 12,
-      "lastUsed": 1780552408911
+      "usageCount": 42,
+      "lastUsed": 1783696061097
     },
     "onlyoffice-desktopeditors": {
       "name": "ONLYOFFICE",
@@ -317,8 +317,8 @@
       "exec": "gnome-calculator",
       "icon": "org.gnome.Calculator",
       "comment": "Effectue des calculs arithmétiques, scientifiques ou financiers",
-      "usageCount": 1,
-      "lastUsed": 1779194171835
+      "usageCount": 2,
+      "lastUsed": 1781275554516
     },
     "org.gnome.seahorse.Application": {
       "name": "Mots de passe et clés",
@@ -343,6 +343,14 @@
       "comment": "Enregistrez et gérez vos mots de passe",
       "usageCount": 2,
       "lastUsed": 1780432601134
+    },
+    "dev.lizardbyte.app.Sunshine": {
+      "name": "Sunshine",
+      "exec": "/usr/bin/env systemctl start --u app-dev.lizardbyte.app.Sunshine",
+      "icon": "dev.lizardbyte.app.Sunshine",
+      "comment": "Self-hosted game stream host for Moonlight",
+      "usageCount": 2,
+      "lastUsed": 1783367391594
     }
   }
 }

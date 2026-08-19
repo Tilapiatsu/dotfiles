@@ -125,6 +125,7 @@ window-rule {
     match app-id="XnView"
     match app-id="org.kde.okular"
     match app-id="gimp"
+    match app-id="WebApp"
     opacity 1.0
 }
 window-rule {

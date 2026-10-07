@@ -14,5 +14,6 @@ vim.filetype.add({
     vert = "glsl",
     frag = "glsl",
     hlsl = "hlsl",
+    usf = "hlsl", -- Unreal Shader Format
   },
 })

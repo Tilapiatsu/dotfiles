@@ -1,3 +1,5 @@
+/* BEGIN DMS OVERRIDE */
+
 /*
 * GTK Colors
 * Generated with Matugen
@@ -12,30 +14,30 @@
 @define-color error_bg_color #ffb4ab;
 @define-color error_fg_color #690005;
 /* Follow material spec (also I think looks nicer) */
-@define-color accent_fg_color #003920;
-@define-color accent_bg_color #93d5aa;
+@define-color accent_fg_color #0a363a;
+@define-color accent_bg_color #a6ced3;
 /* Use surface instead of background */
-@define-color window_bg_color #0f1511;
-@define-color window_fg_color #dfe4dd;
+@define-color window_bg_color #121414;
+@define-color window_fg_color #e2e2e2;
 /* Make it more similar to Adwaita */
-@define-color view_bg_color #0f1511;
-@define-color view_fg_color #dfe4dd;
-@define-color headerbar_bg_color #0f1511;
-@define-color headerbar_fg_color #dfe4dd;
-@define-color sidebar_bg_color #1b211d;
-@define-color sidebar_fg_color #dfe4dd;
+@define-color view_bg_color #121414;
+@define-color view_fg_color #e2e2e2;
+@define-color headerbar_bg_color #121414;
+@define-color headerbar_fg_color #e2e2e2;
+@define-color sidebar_bg_color #1e2020;
+@define-color sidebar_fg_color #e2e2e2;
 /* There is only like one application I know that uses this, and there isn't a good way to get
 a color between surface and surface container so I think just giving this surface is a good enough fallback*/
-@define-color secondary_sidebar_bg_color #0f1511;
-@define-color secondary_sidebar_fg_color #dfe4dd;
-@define-color card_bg_color #1b211d;
-@define-color card_fg_color #dfe4dd;
-@define-color overview_bg_color #1b211d;
-@define-color overview_fg_color #dfe4dd;
-@define-color popover_bg_color #1b211d;
-@define-color popover_fg_color #dfe4dd;
-@define-color dialog_bg_color #0f1511;
-@define-color dialog_fg_color #dfe4dd;
+@define-color secondary_sidebar_bg_color #121414;
+@define-color secondary_sidebar_fg_color #e2e2e2;
+@define-color card_bg_color #1e2020;
+@define-color card_fg_color #e2e2e2;
+@define-color overview_bg_color #1e2020;
+@define-color overview_fg_color #e2e2e2;
+@define-color popover_bg_color #1e2020;
+@define-color popover_fg_color #e2e2e2;
+@define-color dialog_bg_color #121414;
+@define-color dialog_fg_color #e2e2e2;
 
 /* Backdrop/unfocused states - prevents white flash on window unfocus */
 @define-color headerbar_backdrop_color @window_bg_color;
@@ -46,3 +48,5 @@ a color between surface and surface container so I think just giving this surfac
 @define-color theme_unfocused_base_color @window_bg_color;
 @define-color theme_unfocused_selected_bg_color @accent_bg_color;
 @define-color theme_unfocused_selected_fg_color @accent_fg_color;
+
+/* END DMS OVERRIDE */

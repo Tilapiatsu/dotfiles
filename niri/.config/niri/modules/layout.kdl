@@ -54,19 +54,19 @@ layout {
     // Alternatively, you can override it with a window rule called
     // `draw-border-with-background`.
     border {
-        off
+      off
         width 4
         active-color   "#709070"      // Neutral gray
-        inactive-color "#d0d0d0"      // Light gray
+        inactive-color "#d0f0f0"      // Light gray
         urgent-color   "#cc4444"      // Softer red
     }
     focus-ring {
         width 2
         //active-color   "#80BB99"      // Medium gray
-	active-gradient from="#3c9585" to="#30BBBB" angle=45
-	//active-color	"#3c9585"
-        inactive-color "#505050"      // Dark gray
-    }
+  	active-gradient from="#3c9585" to="#30BBBB" angle=45
+	  //active-color	"#3c9585"
+    inactive-color "#305959" 
+  }
     shadow {
         softness 30
         spread 5

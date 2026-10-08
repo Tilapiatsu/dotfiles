@@ -17,6 +17,10 @@ return {
         border = {
           style = "rounded",
         },
+        position = {
+          row = 2,
+          col = 0,
+        },
       },
     },
   },

@@ -29,16 +29,16 @@
       "exec": "teams-for-linux --gtk-version=3 %U",
       "icon": "teams-for-linux",
       "comment": "Unofficial Microsoft Teams client for Linux.",
-      "usageCount": 80,
-      "lastUsed": 1784114401078
+      "usageCount": 89,
+      "lastUsed": 1785481656340
     },
     "signal": {
       "name": "Signal",
       "exec": "signal-desktop -- %u",
       "icon": "signal-desktop",
       "comment": "Signal - Private Messenger",
-      "usageCount": 56,
-      "lastUsed": 1784103226626
+      "usageCount": 68,
+      "lastUsed": 1786516047027
     },
     "org.moson.pacseek": {
       "name": "pacseek",
@@ -53,8 +53,8 @@
       "exec": "/opt/cisco/secureclient/bin/vpnui",
       "icon": "cisco-secure-client",
       "comment": "Connect to a private network using the Cisco Secure Client",
-      "usageCount": 47,
-      "lastUsed": 1784114716903
+      "usageCount": 51,
+      "lastUsed": 1785481667959
     },
     "WebApp-Callendar0171": {
       "name": "Callendar",
@@ -69,24 +69,24 @@
       "exec": "/usr/bin/obsidian %U",
       "icon": "obsidian",
       "comment": "Obsidian",
-      "usageCount": 47,
-      "lastUsed": 1784096813884
+      "usageCount": 76,
+      "lastUsed": 1787065772217
     },
     "WebApp-Calendar0171": {
       "name": "Calendar",
       "exec": "brave --app=\"https://calendar.google.com/calendar/u/0/r?pli=1\" --class=WebApp-Callendar0171 --name=WebApp-Callendar0171 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Callendar0171",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/calendar_17_2x.png",
       "comment": "Application web",
-      "usageCount": 29,
-      "lastUsed": 1783322535191
+      "usageCount": 32,
+      "lastUsed": 1785921861586
     },
     "org.kde.krita": {
       "name": "Krita",
       "exec": "krita %F",
       "icon": "krita",
       "comment": "Peinture numérique",
-      "usageCount": 28,
-      "lastUsed": 1783587807254
+      "usageCount": 29,
+      "lastUsed": 1785166957060
     },
     "ark-vcs": {
       "name": "Ark VCS",
@@ -125,16 +125,16 @@
       "exec": "brave --app=\"https://chatgpt.com/\" --class=WebApp-ChatGPT7825 --name=WebApp-ChatGPT7825 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/ChatGPT7825",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/chatgpt.png",
       "comment": "Application web",
-      "usageCount": 79,
-      "lastUsed": 1784096800025
+      "usageCount": 116,
+      "lastUsed": 1787065752096
     },
     "WebApp-GMail4730": {
       "name": "GMail",
       "exec": "brave --app=\"https://mail.google.com/mail/u/0/\" --class=WebApp-GMail4730 --name=WebApp-GMail4730 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/GMail4730",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/GMail.png",
       "comment": "Application web",
-      "usageCount": 43,
-      "lastUsed": 1784036679517
+      "usageCount": 54,
+      "lastUsed": 1787121651650
     },
     "firefox": {
       "name": "Firefox",
@@ -149,8 +149,8 @@
       "exec": "/usr/bin/steam %U",
       "icon": "steam",
       "comment": "Application de gestion et d'utilisation des jeux sur Steam",
-      "usageCount": 33,
-      "lastUsed": 1784045232798
+      "usageCount": 34,
+      "lastUsed": 1785926312328
     },
     "qt5ct": {
       "name": "Paramètres de Qt5",
@@ -205,8 +205,8 @@
       "exec": "spotify-launcher %U",
       "icon": "spotify-launcher",
       "comment": "",
-      "usageCount": 22,
-      "lastUsed": 1784096272253
+      "usageCount": 26,
+      "lastUsed": 1786565584434
     },
     "Distant Shore BRETAGNE Demo": {
       "name": "Distant Shore: BRETAGNE Demo",
@@ -229,8 +229,8 @@
       "exec": "brave --app=\"https://outlook.live.com/mail/?deeplink=mail%2F\" --class=WebApp-Outlook3644 --name=WebApp-Outlook3644 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Outlook3644",
       "icon": "/home/tilapiatsu/TILAPIATSU/ICONS/Microsoft_Outlook_Icon_(2025–present).svg.png",
       "comment": "Application web",
-      "usageCount": 33,
-      "lastUsed": 1783353258425
+      "usageCount": 36,
+      "lastUsed": 1787065633115
     },
     "org.kde.ark": {
       "name": "Ark",
@@ -245,8 +245,8 @@
       "exec": "/opt/Heroic/heroic %U",
       "icon": "heroic",
       "comment": "Un lanceur de jeux open source pour GOG, Epic Games et Amazon Games",
-      "usageCount": 9,
-      "lastUsed": 1783079168491
+      "usageCount": 10,
+      "lastUsed": 1785933600945
     },
     "qvidcap": {
       "name": "Qt V4L2 video capture utility",
@@ -285,8 +285,8 @@
       "exec": "brave --app=\"https://miro.com/app/dashboard/\" --class=WebApp-Miro0753 --name=WebApp-Miro0753 --user-data-dir=/home/tilapiatsu/.local/share/ice/profiles/Miro0753",
       "icon": "/home/tilapiatsu/.local/share/ice/icons/Miro.png",
       "comment": "Application web",
-      "usageCount": 42,
-      "lastUsed": 1783696061097
+      "usageCount": 46,
+      "lastUsed": 1785481730348
     },
     "onlyoffice-desktopeditors": {
       "name": "ONLYOFFICE",
@@ -349,8 +349,8 @@
       "exec": "/usr/bin/env systemctl start --u app-dev.lizardbyte.app.Sunshine",
       "icon": "dev.lizardbyte.app.Sunshine",
       "comment": "Self-hosted game stream host for Moonlight",
-      "usageCount": 2,
-      "lastUsed": 1783367391594
+      "usageCount": 3,
+      "lastUsed": 1785935173821
     }
   }
 }

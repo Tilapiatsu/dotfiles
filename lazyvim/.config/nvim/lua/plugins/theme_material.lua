@@ -22,7 +22,7 @@ return {
         colors.editor.cursor = "#aaeeff"
         colors.editor.selection = "#0d060f"
         colors.editor.active = "#1e222a"
-        colors.syntax.comments = "#5f6578"
+        colors.syntax.comments = "#4f5568"
         colors.editor.contrast = "#1a1e25"
         colors.editor.border = "#3d444b"
         colors.editor.vsplit = colors.editor.border

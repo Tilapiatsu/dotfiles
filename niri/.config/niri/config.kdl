@@ -22,6 +22,3 @@ debug {
     honor-xdg-activation-with-invalid-serial
 }
 
-include "dms/windowrules.kdl"
-include "dms/cursor.kdl"
-include "dms/wpblur.kdl"

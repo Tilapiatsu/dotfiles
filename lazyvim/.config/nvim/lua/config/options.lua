@@ -9,12 +9,3 @@ vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
 vim.g.lazyvim_python_ruff = "ruff"
 vim.opt.textwidth = 120
 vim.opt.smoothscroll = true
-vim.filetype.add({
-  extension = {
-    vert = "glsl",
-    frag = "glsl",
-    fragment = "hlsl",
-    hlsl = "hlsl",
-    usf = "hlsl", -- Unreal Shader Format
-  },
-})

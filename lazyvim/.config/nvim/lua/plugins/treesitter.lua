@@ -12,4 +12,13 @@ return {
     highlight = { enable = true },
     indent = { enable = true },
   },
+  vim.filetype.add({
+    extension = {
+      vert = "glsl",
+      frag = "glsl",
+      fragment = "hlsl",
+      hlsl = "hlsl",
+      usf = "hlsl", -- Unreal Shader Format
+    },
+  }),
 }

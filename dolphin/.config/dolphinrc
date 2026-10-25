@@ -1,6 +1,10 @@
 [DetailsMode]
 PreviewSize=32
 
+[ExtractDialog]
+4 screens: Height=1030
+4 screens: Width=950
+
 [General]
 TerminalApplication=kitty
 Version=202

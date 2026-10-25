@@ -53,9 +53,31 @@ layer-rule {
     }
 }
 layer-rule {
+    match namespace=r#"^dms:power-menu"#
+    geometry-corner-radius 12
+    opacity 0.75
+    place-within-backdrop true
+    background-effect {
+      xray false
+      blur true
+    }
+}
+
+layer-rule {
     match namespace=r#"^dms:desktop-widget:.*"#
     geometry-corner-radius 12
     opacity 0.75
+    shadow {
+        on
+        // off
+        softness 40
+        spread 10
+        offset x=0 y=5
+        draw-behind-window true
+        color "#00000064"
+        // inactive-color "#00000064"
+    }
+
     background-effect {
       blur true
     }

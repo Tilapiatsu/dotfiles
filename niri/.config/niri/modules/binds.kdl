@@ -214,9 +214,12 @@ binds {
     XF86Launch1 { screenshot; }
     Ctrl+XF86Launch1 { screenshot-screen; }
     Alt+XF86Launch1 { screenshot-window; }
-    Print { screenshot; }
+    Print hotkey-overlay-title="Capture" {
+        spawn "dms" "ipc" "call" "quickCapture" "screenshot" "region" "edit";
+    }
     Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
+
     // === System Controls ===
     Mod+Shift+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+P { power-off-monitors; }

@@ -150,7 +150,7 @@ window-rule {
     match app-id="gimp"
     match app-id="WebApp"
     match app-id="UnrealEditor"
-    match app-id="ev.duxlabs.shell"
+    match title="Quick Capture"
     opacity 1.0
 }
 window-rule {

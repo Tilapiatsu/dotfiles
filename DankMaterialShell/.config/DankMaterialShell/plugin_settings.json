@@ -27,5 +27,17 @@
   },
   "wallpaperBing": {
     "enabled": false
+  },
+  "quickCapture": {
+    "enabled": true,
+    "skipConfirm": false,
+    "showToolbarBorder": false,
+    "color_palette_preset": "adaptive",
+    "modalDisplayMode": "floating",
+    "overlayOpacity": 60,
+    "showCanvasBorder": true,
+    "editQuality": "600000",
+    "modalScaleToContent": true,
+    "backgroundDefaultSolidColor": "slot_8"
   }
 }

@@ -30,7 +30,7 @@
   },
   "fontFamily": "FantasqueSansM Nerd Font Mono",
   "monoFontFamily": "Adwaita Mono",
-  "fontScale": 1.1,
+  "fontScale": 0.96,
   "useSystemSoundTheme": true,
   "soundVolumeChanged": false,
   "acMonitorTimeout": 180,
@@ -79,7 +79,11 @@
           "enabled": true,
           "showOccupiedWorkspacesOnly": true
         },
-        "focusedWindow"
+        {
+          "id": "focusedWindow",
+          "enabled": true,
+          "focusedWindowSize": 1
+        }
       ],
       "centerWidgets": [
         {
@@ -534,5 +538,13 @@
   ],
   "lockScreenShowPowerActions": true,
   "frameLauncherArcExtender": false,
-  "updaterReopenAfterUpgrade": false
+  "updaterReopenAfterUpgrade": false,
+  "wellbeingEnabled": false,
+  "dankLauncherV2Size": "micro",
+  "niriLayoutBorderSize": -1,
+  "dashOptions": {
+    "media": {
+      "lyrics": false
+    }
+  }
 }

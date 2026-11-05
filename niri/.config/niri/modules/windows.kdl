@@ -52,16 +52,6 @@ layer-rule {
       xray false 
     }
 }
-layer-rule {
-    match namespace=r#"^dms:power-menu"#
-    geometry-corner-radius 12
-    opacity 0.75
-    place-within-backdrop true
-    background-effect {
-      xray false
-      blur true
-    }
-}
 
 layer-rule {
     match namespace=r#"^dms:desktop-widget:.*"#

@@ -1,0 +1,3 @@
+#!/bin/sh
+# solidcraft-cli wrapper written by the SolidCraft AppImage
+SOLIDCRAFT_APPIMAGE_CLI=1 exec "/home/tilapiatsu/TILAPIATSU/PORTABLE_APPS/Solidcraft/solidcraft.AppImage" "$@"

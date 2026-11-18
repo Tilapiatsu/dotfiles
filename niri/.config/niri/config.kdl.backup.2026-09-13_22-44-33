@@ -1,0 +1,27 @@
+// This config is in the KDL format: https://kdl.dev
+// "/-" comments out the following node.
+// Check the wiki for a full description of the configuration:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Introduction
+
+include "modules/outputs.kdl"
+include "modules/environment.kdl"
+include "modules/startup.kdl"
+include "modules/binds.kdl"
+include "modules/animations.kdl"
+include "modules/inputs.kdl"
+include "modules/layout.kdl"
+include "modules/windows.kdl"
+
+config-notification {
+    disable-failed
+}
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+debug {
+    honor-xdg-activation-with-invalid-serial
+}
+
+include "dms/windowrules.kdl"
+include "dms/cursor.kdl"
+include "dms/wpblur.kdl"
